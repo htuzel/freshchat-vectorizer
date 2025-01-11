@@ -1,52 +1,67 @@
-# Freshchat Vectorizer
+# Flalingo AI Assistant
 
-Bu proje, Freshchat müşteri hizmetleri konuşmalarını ve bilgi bankası dokümanlarını vektörleştirerek, yapay zeka destekli akıllı yanıt sistemi oluşturmayı amaçlar.
+Flalingo AI Assistant, müşteri hizmetleri konuşmalarını ve bilgi bankası dokümanlarını kullanarak, yapay zeka destekli akıllı yanıt sistemi sunan bir API servisidir. Sistem, geçmiş konuşmalardan ve bilgi bankasından en alakalı içerikleri bularak, GPT-4 ile doğal ve tutarlı yanıtlar üretir.
 
-## Özellikler
+## 🚀 Özellikler
 
-- Freshchat konuşmalarını otomatik vektörleştirme
-- Bilgi bankası dokümanlarını vektörleştirme
-- İki boyutlu RAG (Retrieval Augmented Generation) sistemi
+- **İki Boyutlu RAG Sistemi**
   - Geçmiş konuşmalardan benzer örnekleri bulma
   - Bilgi bankasından ilgili dokümanları bulma
-- GPT-4 ile doğal dil yanıtları oluşturma
-- REST API desteği
+  - Her iki kaynağı birleştirerek kapsamlı yanıtlar üretme
 
-## Sistem Mimarisi
+- **Vektör Veritabanı Entegrasyonu**
+  - Konuşmaları ve dokümanları vektörleştirme
+  - Semantik arama yapabilme
+  - Yüksek performanslı benzerlik sorguları
 
-### Servisler
+- **REST API**
+  - Token tabanlı güvenlik
+  - Kolay entegre edilebilir endpoint
+  - JSON formatında yanıtlar
 
-1. **FreshchatService**: Freshchat API ile iletişim kurar ve konuşmaları yönetir
-2. **QdrantService**: Konuşmaları vektör veritabanında saklar ve benzerlik araması yapar
-3. **KnowledgeService**: Bilgi bankası dokümanlarını yönetir ve vektörleştirir
-4. **OpenAIService**: Embedding oluşturma ve RAG yanıtları üretme işlemlerini yönetir
-5. **API Server**: RAG sistemine HTTP endpoint üzerinden erişim sağlar
+## 🛠 Teknolojiler
 
-### Vektör Veritabanı (Qdrant)
+- **OpenAI GPT-4**: Doğal dil işleme ve yanıt üretme
+- **Qdrant**: Vektör veritabanı
+- **Express.js**: API sunucusu
+- **Node.js**: Runtime environment
 
-- `conversations_simplified`: Geçmiş konuşmaları saklar
-- `knowledge`: Bilgi bankası dokümanlarını saklar
+## 📦 Kurulum
 
-## Kurulum
+1. Repo'yu klonlayın:
+```bash
+git clone https://github.com/yourusername/flalingo-ai-assistant.git
+cd flalingo-ai-assistant
+```
 
-1. Gerekli paketleri yükleyin:
+2. Bağımlılıkları yükleyin:
 ```bash
 npm install
 ```
 
-2. Çevre değişkenlerini ayarlayın:
+3. Çevre değişkenlerini ayarlayın:
 ```bash
 cp .env.example .env
 ```
-`.env` dosyasını düzenleyerek gerekli API anahtarlarını ekleyin:
-- OPENAI_API_KEY
-- QDRANT_URL
-- QDRANT_API_KEY
-- FRESHCHAT_API_KEY
-- FRESHCHAT_API_URL
-- API_TOKEN (güvenli bir token oluşturun)
 
-## Kullanım
+4. `.env` dosyasını düzenleyin:
+```env
+# OpenAI Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Qdrant Configuration
+QDRANT_URL=your_qdrant_url_here
+QDRANT_API_KEY=your_qdrant_api_key_here
+
+# Freshchat Configuration
+FRESHCHAT_API_KEY=your_freshchat_api_key_here
+FRESHCHAT_API_URL=your_freshchat_api_url_here
+
+# API Configuration
+API_TOKEN=your_secure_api_token_here
+```
+
+## 🚦 Kullanım
 
 ### API Sunucusunu Başlatma
 
@@ -54,17 +69,24 @@ cp .env.example .env
 node src/api/server.js
 ```
 
-### API Endpoint Kullanımı
+### API'yi Kullanma
 
+**Endpoint**: `GET /api/flalingo-ai`
+
+**Parametreler**:
+- `question`: Sorulacak soru (zorunlu)
+- `token`: API token (zorunlu)
+
+**Örnek İstek**:
 ```bash
 curl "http://localhost:3000/api/flalingo-ai?question=Nasıl ders rezervasyonu yapabilirim?&token=your_api_token"
 ```
 
-Örnek yanıt:
+**Örnek Yanıt**:
 ```json
 {
     "success": true,
-    "answer": "GPT-4 tarafından oluşturulan yanıt",
+    "answer": "Ders rezervasyonu yapmak için öncelikle Flalingo platformuna giriş yapmanız gerekiyor...",
     "metadata": {
         "similar_conversations": 3,
         "knowledge_articles": 2
@@ -72,34 +94,33 @@ curl "http://localhost:3000/api/flalingo-ai?question=Nasıl ders rezervasyonu ya
 }
 ```
 
-### Bilgi Bankası Dokümanlarını İçe Aktarma
+### Bilgi Bankası Yönetimi
 
-1. `knowledge_base.txt` dosyasına dokümanları ekleyin (her dokümanı "-----" ile ayırın)
+1. Dokümanları `knowledge_base.txt` dosyasına ekleyin:
+```text
+Başlık 1
+İçerik...
+-----
+Başlık 2
+İçerik...
+```
+
 2. Dokümanları içe aktarın:
 ```bash
 node src/scripts/importKnowledge.js
 ```
 
-### RAG Sistemini Test Etme
+## 🔍 Teknik Detaylar
 
-Test scriptini çalıştırın:
-```bash
-node test-rag.js
-```
+### Vektör Özellikleri
+- Model: OpenAI Ada-002 Embeddings
+- Boyut: 1536 dimension
+- Metrik: Cosine similarity
+- Eşik değeri: 0.3 (ayarlanabilir)
 
-## Teknik Detaylar
+### Veri Formatları
 
-### Vektör Boyutları
-- OpenAI Ada-002 Embeddings: 1536 boyutlu vektörler
-- Cosine benzerlik metriği kullanılır
-- Benzerlik eşiği: 0.3 (ayarlanabilir)
-
-### API Güvenliği
-- Token tabanlı kimlik doğrulama
-- Rate limiting (yakında eklenecek)
-- CORS koruması (yakında eklenecek)
-
-### Konuşma Formatı
+**Konuşma Formatı**:
 ```javascript
 {
     id: "unique-id",
@@ -110,46 +131,55 @@ node test-rag.js
 }
 ```
 
-### RAG Yanıt Formatı
+**RAG Yanıt Formatı**:
 ```javascript
 {
-    answer: "GPT-4 tarafından oluşturulan yanıt",
+    answer: "GPT-4 yanıtı",
     sources: {
-        conversations: [
-            { id, content, score }
-        ],
-        knowledge: [
-            { id, title, content, score }
-        ]
+        conversations: [{ id, content, score }],
+        knowledge: [{ id, title, content, score }]
     }
 }
 ```
 
-## Hata Ayıklama
+## ⚠️ Hata Ayıklama
 
-### Yaygın Hatalar
+### Sık Karşılaşılan Sorunlar
 
-1. **Vektör Oluşturma Hataları**
-   - OpenAI API anahtarının doğruluğunu kontrol edin
-   - Rate limit aşımlarına dikkat edin
-
-2. **Qdrant Bağlantı Hataları**
-   - URL ve API anahtarının doğruluğunu kontrol edin
-   - Koleksiyon yapılandırmasını kontrol edin
-
-3. **Benzer Konuşma Bulunamama Durumu**
-   - Benzerlik eşiğini düşürmeyi deneyin
-   - Vektörlerin doğru oluşturulduğundan emin olun
-
-4. **API Hataları**
+1. **API Bağlantı Hataları**
    - Token doğruluğunu kontrol edin
+   - Sunucunun çalıştığından emin olun
    - İstek formatını kontrol edin
-   - Sunucunun çalışır durumda olduğundan emin olun
 
-## Katkıda Bulunma
+2. **Vektör İşleme Hataları**
+   - OpenAI API anahtarını kontrol edin
+   - Rate limit aşımlarını kontrol edin
+   - Vektör boyutlarını kontrol edin
 
-1. Bu depoyu fork edin
-2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
+3. **Yanıt Kalitesi Sorunları**
+   - Benzerlik eşiğini ayarlayın
+   - Bilgi bankası içeriğini güncelleyin
+   - Konuşma verilerini kontrol edin
+
+## 🔒 Güvenlik
+
+- Token tabanlı kimlik doğrulama
+- Rate limiting (yakında)
+- CORS koruması (yakında)
+- IP bazlı kısıtlamalar (yakında)
+
+## 🤝 Katkıda Bulunma
+
+1. Fork yapın
+2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
 3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add amazing feature'`)
 4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun 
+5. Pull Request açın
+
+## 📝 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+## 📞 Destek
+
+Sorularınız için [issues](https://github.com/yourusername/flalingo-ai-assistant/issues) bölümünü kullanabilirsiniz. 
