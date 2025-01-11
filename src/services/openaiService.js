@@ -61,7 +61,6 @@ class OpenAIService {
                         If the question is not related to Flalingo, you should say that you are not sure about the answer and you will ask the relevant team to get back to the customer.
                         If you need some technical detail, you can ask more information if it is happening on the browser, app which mobile or desktop. If it is happening on the website, you can ask more information about the page or the section etc. and try to collect more information
                         `
-
                     },
                     {
                         role: 'user',

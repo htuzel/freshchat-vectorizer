@@ -5,17 +5,10 @@ async function testRAG() {
     try {
         console.log("\nTesting question answering...");
         const testQuestions = [
-            "Öğretmen havuzumda kaç tane öğretmen var?",
-            "Ders materyalleri neler?",
-            "Ders materyallerim daha önce kullanılmış.",
-            "Taksit seçeneğiniz var mı?",
-            "Hesabımı nasıl dondurabilirim?",
-            "Derse katılamıyorum, ne yapacağım?",
-            "Öğretmen derse gelmedi.",
-            "Dersi iptal edebilir miyim?",
+            "Ogretmen derse gelmedi, 5 dk.dir bekliyorum",
+            "Ders haklarım eksilmiş; ben bu hakları geri istiyorum.",
             "Flai raporum oluşmadi, ne yapacağım?",
-            "21.00'da ders rezervasyonu yapmıştım acaba öğretmen mi değişiklik yaptı",
-            "Flai raporum hatalı"
+            "öğretmen havuzumu beğenmedim, yeni öğretmen istiyorum.",
         ];
 
         for (const question of testQuestions) {

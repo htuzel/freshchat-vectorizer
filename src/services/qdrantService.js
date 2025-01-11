@@ -102,19 +102,11 @@ class QdrantService {
                 vector: query.vector,
                 with_payload: true,
                 with_vectors: true,
-                score_threshold: 0.3,
+                score_threshold: 0.7,
                 params: {
                     exact: false,
                     hnsw_ef: 128
                 }
-            });
-
-            // Debug için sonuçları logla
-            console.log(`Found ${response.length} similar conversations`);
-            response.forEach((hit, index) => {
-                console.log(`Result ${index + 1} - Score: ${hit.score.toFixed(3)}`);
-                console.log(`Original ID: ${hit.payload.original_id}`);
-                console.log(`Conversation snippet: ${hit.payload.conversation.slice(0, 100)}...`);
             });
 
             return response.map(hit => ({
