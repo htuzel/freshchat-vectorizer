@@ -13,29 +13,20 @@ app.use('/webhooks', freshchatWebhook);
 // New endpoint to trigger historical data import
 app.get('/api/import-historical', async (req, res) => {
     try {
-        const days = parseInt(req.query.days) || 30; // Get days from query params
+        const days = parseInt(req.query.days) || 30;
         
         // Initialize Qdrant collection if it doesn't exist
         await qdrantService.initializeCollection();
 
-        // Fetch historical conversations
-        const historicalConversations = await freshchatService.getHistoricalConversations(
+        // Fetch and store historical conversations
+        const result = await freshchatService.getHistoricalConversations(
             new Date(Date.now() - days * 24 * 60 * 60 * 1000)
         );
 
-        console.log(`Found ${historicalConversations.length} historical conversations`);
-
-        // Store historical conversations
-        let stored = 0;
-        for (const conversation of historicalConversations) {
-            const formattedConversation = freshchatService.formatConversation(conversation);
-            await qdrantService.storeConversation(formattedConversation);
-            stored++;
-        }
-
         res.json({
             success: true,
-            message: `Successfully processed ${stored} conversations out of ${historicalConversations.length} total conversations`
+            message: `Successfully processed ${result.processedUsers} users with ${result.totalConversations} total conversations`,
+            details: result
         });
     } catch (error) {
         console.error('Import failed:', error);

@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { config } from '../config.js';
+import { qdrantService } from './qdrantService.js';
 
 class FreshchatService {
     constructor() {
@@ -42,36 +43,84 @@ class FreshchatService {
             const users = await this.getAllUsers();
             console.log(`Found ${users.length} users`);
 
-            let allConversations = [];
-
-            // For each user, get their conversations
-            for (const user of users) {
+            let totalConversations = 0;
+            
+            // For each user, get and store their conversations
+            for (let i = 0; i < users.length; i++) {
+                const user = users[i];
                 try {
-                    console.log(`Fetching conversations for user: ${user}`);
-                    const userConversations = await this.getUserConversations(user, fromDate);
-                    allConversations = allConversations.concat(userConversations);
+                    console.log(`Processing user ${i + 1}/${users.length} (ID: ${user})`);
+                    const conversationsCount = await this.getUserAndStoreConversations(user, fromDate);
+                    totalConversations += conversationsCount;
+                    console.log(`Progress: ${i + 1}/${users.length} users processed, ${totalConversations} total conversations stored`);
                 } catch (error) {
-                    console.error(`Error fetching conversations for user ${user.id}:`, error);
+                    console.error(`Error processing user ${user}:`, error);
                 }
                 // Add delay to avoid rate limiting
                 await new Promise(resolve => setTimeout(resolve, 100));
             }
 
-            return allConversations;
+            return {
+                processedUsers: users.length,
+                totalConversations
+            };
         } catch (error) {
-            console.error('Error fetching historical conversations:', error);
-            if (error.response) {
-                console.error('Error response:', {
-                    status: error.response.status,
-                    statusText: error.response.statusText,
-                    data: error.response.data,
-                    headers: error.response.headers,
-                    url: error.config?.url,
-                    method: error.config?.method
-                });
-            }
+            console.error('Error in historical conversations process:', error);
             throw error;
         }
+    }
+
+    async getUserAndStoreConversations(userId, fromDate) {
+        let page = 1;
+        let totalStored = 0;
+
+        while (true) {
+            try {
+                const response = await this.client.get(`/v2/users/${userId}/conversations`);
+                const userConversations = response.data.conversations || [];
+                
+                if (userConversations.length === 0) break;
+
+                console.log(`Processing ${userConversations.length} conversations for user ${userId} (page ${page})`);
+
+                // Process each conversation in the current page
+                for (let conversation of userConversations) {
+                    try {
+                        //check if conversation is resolved
+                        const conversationObj = await this.client.get(`/v2/conversations/${conversation.id}`);                    
+                        conversation.is_resolved = conversationObj.data.status;
+                        conversation.assigned_agent_id = conversationObj.data.assigned_agent_id;
+                        conversation.user_id = userId;
+                        await new Promise(resolve => setTimeout(resolve, 100));
+
+                        const messages = await this.client.get(`/v2/conversations/${conversation.id}/messages`);
+                        conversation.messages = messages.data.messages || [];
+                        
+                        // Format and store the conversation
+                        const formattedConversation = this.formatConversation(conversation);
+                        await qdrantService.storeConversation(formattedConversation);
+                        totalStored++;
+                        
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                    } catch (error) {
+                        console.error(`Error processing conversation ${conversation.id} for user ${userId}:`, error);
+                    }
+                }
+
+                console.log(`Stored ${userConversations.length} conversations for user ${userId} (page ${page})`);
+
+                if (!response.data.pagination?.has_next) break;
+                page++;
+
+                // Add delay to avoid rate limiting
+                await new Promise(resolve => setTimeout(resolve, 100));
+            } catch (error) {
+                console.error(`Error fetching conversations for user ${userId} page ${page}:`, error);
+                throw error;
+            }
+        }
+
+        return totalStored;
     }
 
     async getAllUsers() {
@@ -83,7 +132,9 @@ class FreshchatService {
                 const response = await this.client.get('/v2/users', {
                     params: {
                         created_from: '2024-10-01T00:00:00Z', //UTC Format From 1st October 2024, can be changed to any date
-                        page: page
+                        created_to: '2025-01-01T00:00:00Z', //UTC Format To 10th January 2025, can be changed to any date
+                        page: page,
+                        per_page: 1000
                     }
                 });
 
@@ -117,50 +168,6 @@ class FreshchatService {
         }
 
         return userIds;
-    }
-
-    async getUserConversations(userId, fromDate) {
-        let conversations = [];
-        let page = 1;
-
-        while (true) {
-            try {
-                const response = await this.client.get(`/v2/users/${userId}/conversations`);
-
-                const userConversations = response.data.conversations || [];
-                if (userConversations.length === 0) break;
-
-                // Fetch messages for each conversation if not included
-                for (let conversation of userConversations) {
-                    //check if conversation is resolved
-                    const conversationObj = await this.client.get(`/v2/conversations/${conversation.id}`);                    
-                    conversation.is_resolved = conversationObj.data.status;
-                    conversation.assigned_agent_id = conversationObj.data.assigned_agent_id;
-                    conversation.user_id = userId;
-                    await new Promise(resolve => setTimeout(resolve, 100));
-
-                    const messages = await this.client.get(`/v2/conversations/${conversation.id}/messages`);
-                    conversation.messages = messages.data.messages || [];
-                    
-                    //check if conversation has summary                    
-                    await new Promise(resolve => setTimeout(resolve, 100));
-                    conversations.push(conversation);
-                }
-
-                console.log(`Fetched ${userConversations.length} conversations for user ${userId} from page ${page}`);
-
-                if (!response.data.pagination?.has_next) break;
-                page++;
-
-                // Add delay to avoid rate limiting
-                await new Promise(resolve => setTimeout(resolve, 100));
-            } catch (error) {
-                console.error(`Error fetching conversations for user ${userId} page ${page}:`, error);
-                throw error;
-            }
-        }
-
-        return conversations;
     }
 
     formatConversation(rawConversation) {
