@@ -131,8 +131,8 @@ class FreshchatService {
             try {
                 const response = await this.client.get('/v2/users', {
                     params: {
-                        created_from: '2024-10-01T00:00:00Z', //UTC Format From 1st October 2024, can be changed to any date
-                        created_to: '2025-01-01T00:00:00Z', //UTC Format To 10th January 2025, can be changed to any date
+                        created_from: '2024-12-01T00:00:00Z', //UTC Format From 1st October 2024, can be changed to any date
+                        created_to: '2025-01-01T12:00:00Z', //UTC Format To 10th January 2025, can be changed to any date
                         page: page,
                         per_page: 1000
                     }
@@ -171,14 +171,40 @@ class FreshchatService {
     }
 
     formatConversation(rawConversation) {
-        return {
-            id: rawConversation.id,
-            content: rawConversation.messages || [],
-            user_id: rawConversation.user_id,
-            assigned_agent_id: rawConversation.assigned_agent_id,
-            summary: '',
-            is_resolved: ''
-        };
+        try {
+            // Filter out system messages and format messages as a simple dialog
+            const messages = (rawConversation.messages || [])
+                .filter(msg => {
+                    // Skip system messages
+                    if (msg.message_type === 'system') return false;
+                    
+                    // Check if message has valid content
+                    const content = msg.message_parts?.[0]?.text?.content || '';
+                    return content.trim() !== '';
+                })
+                .sort((a, b) => new Date(a.timestamp || a.created_time) - new Date(b.timestamp || b.created_time))
+                .map(msg => {
+                    const role = msg.actor_type === 'agent' ? 'Agent' : 'User';
+                    const content = msg.message_parts?.[0]?.text?.content || '';
+                    return `${role}: ${content.trim()}`;
+                });
+
+            // Format as a clean dialog with header and newlines
+            const dialog = messages.join('\n');
+
+            return {
+                id: rawConversation.id,
+                conversation: dialog,
+                user_id: rawConversation.user_id,
+                assigned_agent_id: rawConversation.assigned_agent_id,
+                summary: '',
+                is_resolved: rawConversation.is_resolved || false
+            };
+        } catch (error) {
+            console.error('Error formatting conversation:', error);
+            console.error('Raw conversation:', JSON.stringify(rawConversation, null, 2));
+            throw error;
+        }
     }
 
     async testConnection() {

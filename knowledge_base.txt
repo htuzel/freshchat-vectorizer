@@ -1,0 +1,1158 @@
+Ders Rezervasyonu Süreci
+Ders rezervasyonu, öğrenci paneliniz üzerinden kolay ve esnek bir şekilde yapılabilir. İhtiyaçlarınıza ve tercihlerinize uygun olarak istediğiniz öğretmenle ders planlayabilirsiniz. İşte ders rezervasyonu süreci ve önemli noktalar:
+
+1. Öğrenci Paneline Giriş Yapın
+Ders rezervasyonuna başlamak için öncelikle öğrenci panelinize giriş yapmanız gerekir. Giriş yaptıktan sonra, ders planlama seçenekleri karşınıza çıkacaktır.
+
+2. Rezervasyon Yöntemleri
+Derslerinizi planlamak için iki farklı yöntem bulunmaktadır:
+
+2.1. Tarihe Göre Ara
+Kullanım Amacı: Uygun tarih ve saat seçimi.
+Nasıl Çalışır: Seçtiğiniz zaman diliminde müsait olan öğretmenler görüntülenir.
+Avantajı: Kendi programınıza uygun şekilde ders planlama imkânı sunar.
+2.2. Öğretmene Göre Ara
+Kullanım Amacı: Belirli bir öğretmeni seçme.
+Nasıl Çalışır: Öğretmen listesinden istediğiniz öğretmeni seçip, profilini inceleyebilirsiniz.
+Avantajı: Seçtiğiniz öğretmenin müsaitlik durumuna göre ders planlayabilirsiniz.
+3. Rezervasyon Talebi Gönderme
+Eğer tercih ettiğiniz öğretmenin takviminde uygun bir zaman bulamazsanız, "Rezervasyon Talep Et" özelliğini kullanabilirsiniz.
+
+Nasıl İşler: Talep gönderilen öğretmen, müsaitlik durumuna göre takvimine yeni bir zaman dilimi ekleyebilir.
+Rezervasyon İçin Dikkat Edilmesi Gerekenler
+Yenileme Gününüzü Unutmayın: Haftalık yenileme gününden önce ders rezervasyonlarinizi tamamlamayi unutmayiniz. Cunku haftalik paket yenileme gunu geldiginde haklariniz kullanin ya da kullanmayin sifirlanir.
+
+Önemli Not: Yenileme günü, aboneliğinizi satın aldığınız tarihe denk gelir ve her hafta aynı günde yenilenir. Rezervasyonu zamanında yapmak derse katılmanızdan bağımsızdır.
+Ders rezervasyonu süreci, kullanıcı dostu arayüzü ve esnek seçenekleriyle ihtiyaçlarınıza uygun çözümler sunar. İster belirli bir öğretmenle ister belirli bir zaman diliminde ders almayı tercih edin, süreci kolaylıkla yönetebilirsiniz.
+
+
+-----
+
+Derse nasıl katılabilirim?
+Derse Nasıl Katılabilirim?
+Derse katılmak için öğrenci panelinizi kullanarak hızlı ve kolay bir şekilde bağlantı sağlayabilirsiniz. Aşağıda, adım adım derse katılım süreci açıklanmıştır:
+
+1. Öğrenci Paneline Giriş Yapın
+Derse katılmak için ilk adım, öğrenci panelinize giriş yapmaktır. 
+
+
+
+2. "Yaklaşan Dersler" Butonuna Tıklayın
+Öğrenci panelinizde, Sidebarda "Yaklaşan Dersler"  butonuna tıklayarak yaklaşan derslerinizi görüntüleyebilirsiniz.
+
+Bu alan, hangi derslerin planlandığını ve ne zaman başlayacağını kolayca takip etmenizi sağlar.
+3. "Katıl" Butonuna Tıklayarak Derse Giriş Yapın
+Katılmak istediğiniz dersin rezervasyon kartında yer alan "Katıl" butonuna tıklayarak oturuma bağlanabilirsiniz.
+
+Not: "Katıl" butonu, ders saatinden 5 dakika önce aktif hale gelir.
+
+Zoom Bekleme Odası ve Otomatik Bağlantı
+Zoom Oturumu: "Katıl" butonuna tıkladığınızda, Zoom ekranı yeni bir sekmede açılır.
+Bekleme Odası: Eğer derse öğretmenden önce giriş yaparsanız, Zoom’un bekleme odasına yönlendirilirsiniz.
+Otomatik Bağlantı: Öğretmen derse katıldığında, bekleme odasındaki öğrenciler otomatik olarak oturuma bağlanır.
+Bu süreçte bekleme odasında herhangi bir ek işlem yapmanıza gerek yoktur.
+
+Önemli Not: Eğitmen Katılmadığında Ders İadesi
+Eğitmen, planlanan derse katılmazsa:
+
+Dersten itibaren 10. dakikada oturumu sonlandırabilirsiniz.
+Bu durumda sistem, dersin otomatik iadesini gerçekleştirir. İade edilen ders için yeniden rezervasyon yapabilirsiniz.
+Derse katılım süreci bu kadar kolay! Paneliniz üzerinden tüm aşamaları rahatlıkla yönetebilirsiniz.
+
+-----
+
+Ders talebi nasıl gönderilir?
+Eğer öğretmeninizin mevcut zaman dilimlerinde size uygun bir saat bulamazsanız, öğretmeninizden size özel bir zaman dilimi talep edebilirsiniz. Bu özellik, öğretmeninizle ortak bir saat belirlemenizi kolaylaştırır. Aşağıdaki adımları izleyerek ders talebi gönderebilirsiniz:
+
+
+
+1. Öğretmenin profiline erişim sağlayın
+Panel üzerinden, öğretmen havuzunuzda talepte bulunmak istediğiniz öğretmenin "Profiline Bak" veya "Ders Al" seçeneklerinden birine tıklayın 
+
+
+
+
+
+2. Uygun gün ve saati seçin
+"Talep Et" seçeneğini tıkladığınızda, size uygun gün ve saatleri seçebileceğiniz bir pencere açılır. Açılan pencere üzerinden, size uygun olan gün ve saat dilimini belirleyerek "Gönder" butonuna tıklayın. 
+
+
+
+
+
+
+
+3. Talebinizi iletin
+Talebinizi ilettikten sonra ekrana bir bilgilendirme mesajı (alert) gelecektir. Bu mesajda sırasıyla "Tamam" ve ardından çıkan diğer bilgilendirme mesajında "OK" butonlarına tıklayarak işlemi tamamlayabilirsiniz. 
+
+Tüm bilgileri doldurduktan sonra, "Gönder" butonuna tıklayarak talebinizi öğretmeninizle paylaşabilirsiniz. Bu işlemle birlikte, uygun olduğunuz gün ve saat bilgileri öğretmene iletilir.
+
+
+
+
+
+Talebinizin Değerlendirilmesi
+Gönderdiğiniz talep, öğretmeninizin müsaitlik durumuna göre ogretmeniniz tarafindan incelenir. Öğretmen, talebinizi kabul edebilir veya alternatif bir öneri sunabilir. Talebiniz kabul edildiğinde, ders rezervasyonunuz otomatik olarak oluşturulur ve öğrenci panelinizde görüntülenir. Böylece, size uygun bir ders saatinde öğretmeninizle ders yapabilirsiniz.
+
+-----
+
+Geçmiş ders kayıtları nasıl görüntülenir?
+Geçmiş ders kayıtlarına erişerek daha önceki birebir derslerinizi yeniden izleyebilir, öğrendiğiniz konuları pekiştirebilir ve kaçırmış olabileceğiniz detayları gözden geçirebilirsiniz. Bu adımlar, geçmiş ders kayıtlarınıza hızlı ve kolay bir şekilde ulaşmanızı sağlar.
+
+
+
+1. Menüye girin
+
+Geçmiş ders kayıtlarını görüntülemek için ilk adım olarak uygulamanın alt kısmındaki "Menü" simgesine tıklayın. Bu bölüm, ders kayıtlarınıza ve diğer seçeneklere erişim sağlamanızı kolaylaştırır.
+
+
+
+
+
+
+
+2. "Geçmiş Dersler" seçeneğini seçin
+
+Açılan menüde "Geçmiş Dersler" seçeneğini bulun ve tıklayın. Bu seçenek, daha önceki derslerinize ve ders kayıtlarına ulaşmanızı sağlayacaktır.
+
+
+
+3. Kayıtları görüntüleyin
+
+"Geçmiş Dersler" bölümüne girdikten sonra, daha önce katıldığınız derslerin listesi karşınıza gelecektir. İzlemek istediğiniz dersi seçerek video kayıtlarına erişebilirsiniz. Bu kayıtlar, dersi yeniden izleyerek bilgilerinizi tazeleme ve daha derinlemesine öğrenme imkanı sunar.
+
+-----
+
+FLAI raporu nasıl görüntülenir?
+FLAI raporları, ders performansınızı analiz ederek gelişim alanlarınızı belirlemenize yardımcı olur. Her dersin ardından 6 saat içinde otomatik olarak oluşturulan bu raporlar, indirilebilir formatta sunulmaktadır. FLAI raporları sayesinde, derslerdeki performansınız hakkında detaylı bilgiye ulaşabilir ve öğrenme sürecinizi optimize edebilirsiniz. Eğer bir raporda hata olduğunu düşünüyorsanız, müşteri temsilcisiyle iletişime geçebilirsiniz.
+
+
+
+1. "Menü" simgesine dokunun
+
+FLAI raporlarını görüntülemek için ilk adım, uygulamanın alt kısmında bulunan "Menü" simgesine dokunmaktır. Menü, uygulamanın diğer işlevlerine de hızlı erişim sağlar.
+
+
+
+
+
+2. "FLAI Raporları" seçeneğini seçin
+
+Açılan menüde "FLAI Raporları" seçeneğini bulun ve tıklayın. Bu bölüm, geçmiş derslerinize ait performans raporlarını içerir.
+
+
+
+3. Raporları görüntüleyin ve indirin
+
+"FLAI Raporları" bölümünde, derslerinize ait raporlar listelenecektir. Detayları incelemek istediğiniz raporu seçerek "Raporu indir" bağlantısına tıklayın. Bu şekilde, raporu cihazınıza indirerek gelişim sürecinizi detaylı bir şekilde analiz edebilirsiniz.
+
+-----
+
+Ders nasıl iptal edilir?
+Ders iptal etmek istediğinizde, öğrenci paneliniz üzerinden kolayca işlem yapabilirsiniz. İptal işlemi, uygun olmayan saatlerde rezerve edilen derslerinizi düzenlemenize yardımcı olur. Aşağıdaki adımları izleyerek ders iptalini gerçekleştirebilirsiniz.
+
+
+
+1. Hesabınıza giriş yapın
+
+Ders iptali için ilk adım, öğrenci hesabınıza giriş yapmaktır. Giriş yaptıktan sonra, yaklaşan derslerinizi görüntüleyebileceğiniz bölüme kolayca erişebilirsiniz.
+
+
+
+2. "Yaklaşan Dersler" butonuna tıklayın
+
+Hesabınıza giriş yaptıktan sonra, "Yaklaşan Dersler/Dersler" butonuna tıklayın. Bu bölümde, önceden rezerve ettiğiniz tüm derslerin bir listesini görebilirsiniz.
+
+
+
+
+
+3. İptal etmek istediğiniz dersi seçin
+
+İptal etmek istediğiniz dersin sağ üst köşesinde bulunan üç noktaya tıklayın. Bu menü, dersle ilgili ek seçeneklere erişmenizi sağlar.
+
+
+
+4. "İptal Et" seçeneğini seçin
+
+Açılan menüde "İptal et" seçeneğini seçerek iptal işlemini tamamlayın. Bu adım, ilgili dersi iptal ederek programınızdan kaldırır.
+
+
+
+
+
+İptal süresi sınırlaması
+
+Not: Dersin başlamasına 8 saatten az bir süre kaldıysa, dersi doğrudan iptal edemezsiniz. Ancak, bu durumda öğretmene iptal talebi gönderebilirsiniz. Talep öğretmen tarafından kabul edilirse, ders iptal edilmiş sayılır.
+
+-----
+
+Hesap nasıl dondurulur?
+Eğer bir süre derslere ara vermeniz gerekiyorsa, aboneliğinizi dondurarak ileride yeniden başlatabilirsiniz. Bu işlem, derslerinize kaldığınız yerden devam etmenizi sağlar ve aboneliğinizin süresini korur. Aşağıdaki adımları izleyerek hesabınızı kolayca dondurabilirsiniz.
+
+
+
+1. Profil simgesine tıklayın
+
+İlk olarak, uygulamanın üst kısmında bulunan profil simgesine tıklayın. Bu adım, kişisel hesap ayarlarınıza ulaşmanızı sağlar.
+
+
+
+
+
+2. "Hesabım" seçeneğine tıklayın
+
+Açılan menüde "Hesabım" seçeneğini seçin. Bu bölüm, hesap ve abonelik detaylarınıza erişim sağlar.
+
+
+
+
+
+
+
+3. "Abonelik" sekmesine geçin
+
+"Hesabım" bölümüne girdikten sonra, "Profil" ve "Abonelik" seçenekleri arasında "Abonelik" sekmesini seçin. Bu sekme, abonelik ayarlarınızı yönetebileceğiniz alandır.
+
+
+
+
+
+
+
+4. "Aboneliği Dondur" seçeneğini tıklayın
+
+"Abonelik" sekmesinde "Aboneliği Dondur" seçeneğini bulun ve tıklayın. Bu seçenek, aboneliğinizi geçici olarak askıya almanızı sağlar.
+
+
+
+
+
+
+
+5. Dondurma işlemini onaylayın
+
+Dondurma işlemi öncesinde onay almanız için bir sayfa karşınıza çıkar. Burada "Devam" butonuna basarak işleme devam edin.
+
+
+
+
+
+
+
+6. "Onayla" butonuna tıklayın
+
+Dondurma işlemini sonlandırmak için açılan uyarıda "Onayla" butonuna tıklayın. Bu adım, dondurma işlemini kesinleştirir.
+
+
+
+
+
+7. İşlem tamamlandığında "Tamam" butonuna tıklayın
+
+İşlem başarıyla tamamlandığında "Tamam" butonuna basarak dondurma işlemini sonlandırın
+
+
+
+
+
+
+
+Aboneliğinizi tekrar başlatmak
+
+Aboneliğinizi dondurma süresi dolmadan tekrar başlatmak isterseniz, "Aboneliğinizi Devam Ettirin" butonuna tıklayarak aboneliğinizi yeniden aktif hale getirebilirsiniz.
+
+
+
+
+
+Dondurma süresi kısıtlamaları
+
+3 aylık abonelik: En fazla 2 hafta dondurabilirsiniz.
+6 aylık abonelik: Her seferinde en fazla 1 ay olmak üzere iki kez dondurma hakkınız vardır.
+1 yıllık abonelik: Her seferinde en fazla 2 ay olmak üzere toplamda 3 kez dondurma hakkınız vardır.
+
+-----
+
+Haftalık yenileme günü nedir?
+
+
+
+
+
+Haftalık ders haklarınız, satın aldığınız paketin yenileme gününde, Türkiye saatiyle 07:30’da otomatik olarak tanımlanır. Bu süreçte, derslerinize hangi gün katıldığınızdan bağımsız olarak, yenileme gününden önce ders rezervasyonlarınızı tamamlamanız önemlidir.
+
+
+
+Yenileme gününde kullanılmayan ders haklarınız bir sonraki haftaya devredilmez ve yenilenen ders haklarınız, bir sonraki hafta için aktif hale gelir.
+
+
+
+Öğrenci panelinizde "Haftalik haklarinizin yenilenmesine kalan sure" menusunde görünen süre, ders rezervasyon haklarınızın ne zaman yenileneceğini gerçek zamanlı olarak takip etmenizi sağlar. Örneğin, Haftada 5 ders rezervasyon hakkiniz var ise "3g 10s 0d" şeklinde bir zaman göstergesi görüyorsanız, bu durum, haftalık 5 ders rezervasyon hakkınızın yenilenmesine 3 gün, 10 saat ve 0 dakika kaldığı anlamına gelir.
+
+
+
+Bu süre dolmadan, yeni bir rezervasyon hakkı tanımlanmaz. Ancak mevcut rezervasyonlarınızı planlayabilir ve yenileme süresi geldiğinde haklarınızı kullanmaya devam edebilirsiniz.
+
+
+
+Yenileme süresi, ders planlamanızı daha verimli bir şekilde yapmanıza yardımcı olmak için tasarlanmıştır.
+
+Eğer haftalık yenileme gününüzü değiştirmek isterseniz, destek ekibimizle iletişime geçerek talebinizi iletebilirsiniz. Ekibimiz, yenileme gününüzü ihtiyaçlarınıza uygun şekilde güncellemek için size memnuniyetle yardımcı olacaktır.
+
+-----
+
+Eğitmen havuzu ve algoritması nasıl çalışır?
+Aboneliğinizin ardından 10 soruluk bir anket doldurmanız istenir. Verdiğiniz cevaplar doğrultusunda yapay zeka sizin için en uygun eğitmen havuzunu oluşturur. Örneğin, ankette "Sabah ders almak istiyorum" seçeneğini işaretlerseniz, çoğunlukla sabah ders veren eğitmenler atanır. Ancak, bazı eğitmenler akşam dersleri de verebilir. Eğitmen havuzunuzda değişiklik yapmak isterseniz, dilediğiniz zaman destek ekibine başvurarak güncelleme talebinde bulunabilirsiniz. Bu sayede, ders programınızı esnek bir şekilde düzenleyebilirsiniz.
+
+-----
+
+Eğitmenle ilk ders nasıl yapılır?
+Eğitmeninizle yapacağınız ilk derste kendisi önce seviyenizi belirleyecek, sonrasına seviyenize uygun bir materyal seçecektir. Sonrasında ise her dersinizden önce iki mod seçimi sunulacaktır;
+
+1 - Rahat mod
+2 - Kurs modu
+
+
+Rahat mod
+Dersiniz birebir speaking(konuşma) ağırlıklı işlenecektir.
+
+
+Kurs modu
+Dersiniz materyallerimiz üzerinden gramer(Dil bilgisi) ağırlıklı işlenecektir. Bu mod seçimi her dersinizden önce tercihinize sunulmaktadır. Bu ve diğer seviye materyallerimize buraya tıklayarak aboneliğiniz boyunca 7/24  ücretsiz ve online erişim sağlayabilirsiniz.
+
+-----
+
+Öğrenme Yolculuğunuz: Kendi Gelişiminizi Keşfedin
+Öğrenciler için öğrenme süreci, sadece derslerle sınırlı olmayan; bireysel gelişimi destekleyen ve her aşamada başarıyı görmeyi mümkün kılan bir yolculuktur. Flalingo'nun "Öğrenme Yolculuğu" alanı, bu yolculuğunuzu daha görünür ve motive edici bir hale getirmek için tasarlandı.
+
+Bu özel alan, seviyenizi belirlemenize, gelişiminizi takip etmenize ve başarılarınızı görselleştirmenize olanak tanır. Öğretmenlerinizin rehberliğinde, dil öğrenim sürecinizdeki ilerlemenizi adım adım takip edebilirsiniz.
+
+1. Seviyenizi Keşfedin: Level 1’den Level 8’e
+
+
+Öğrenme Yolculuğu, dil seviyelerinizi Level 1'den Level 8'e kadar ayrıntılı bir şekilde gözlemlemenizi sağlar. Her bir seviye, belirli becerileri ve dil yeterliliklerini temsil eder:
+
+Level 1: Yeni başlayanlar için temel dil bilgisi. Basit ifadeler ve günlük diyalogları öğrenme.
+Level 2: Basit cümleler oluşturma ve temel dilbilgisi kurallarını kullanma.
+Level 3: Günlük durumlarla ilgili konuşmalarda daha rahat olma.
+Level 4: Daha karmaşık dil yapılarını anlama ve kullanma becerisi.
+Level 5: Akıcı konuşma için önemli dil bilgilerini ve ifadeleri öğrenme.
+Level 6: Spesifik konular hakkında detaylı konuşmalar yapabilme.
+Level 7: Akıcılığa yakın bir seviyede dil kullanımı ve gelişmiş dil becerileri.
+Level 8: Dil yeterliliğini en üst seviyeye taşıyarak akıcı ve doğru bir şekilde iletişim kurma.
+Her seviyeye ulaştığınızda, yeni bir beceri seti öğrenir ve kendinizi daha yetkin hissedersiniz.
+
+2. Seviyenizi Nasıl Görüntüleyebilirsiniz?
+Flalingo, öğrenme yolculuğunuzu öğretmeninizin rehberliğiyle şekillendirir. Öğretmenleriniz, seviyenizi belirlemek ve uygun ders içeriklerini sunmak için öğrenim hedeflerinizi değerlendirir.
+
+Seviye Belirleme: Öğretmeninizin önerisiyle mevcut seviyeniz güncellenir ve bu seviyeye özel ders içerikleri oluşturulur.
+Kendi İlerlemenizi Görüntüleyin: Öğrenci panelinizde, ilerleme grafiğiniz ve seviyenize uygun hedefler açıkça görüntülenir. Bu, hem şu anki seviyenizi hem de gelecekte ulaşmak istediğiniz seviyeyi daha net bir şekilde görmenize olanak tanır.
+
+
+
+
+
+
+
+
+Kurs Ayarları: Seviyenizi Belirleyin
+
+
+
+"Öğrenme Yolculuğu" alanında yer alan Kurs Ayarları butonu, size en uygun ders materyallerini seçebilmeniz için özel bir alan sunar. Bu butona tıklayarak dil seviyenizi belirleyebilir ve ders içeriklerinizi kişiselleştirebilirsiniz.
+
+Seçilebilecek Seviyeler
+Kurs Ayarları alanında, öğrenim sürecinize uygun olarak aşağıdaki 8 seviyeden birini tercih edebilirsiniz:
+
+Başlangıç
+
+Dil öğrenmeye sıfırdan başlayanlar için temel seviyedir.
+Başlangıç Üstü
+
+Temel bilgileri genişleterek daha rahat iletişim kurmayı hedefler.
+Orta Seviye Öncesi
+
+Günlük diyaloglarda ve temel dilbilgisi kurallarında daha fazla akıcılık sağlar.
+Orta Seviye
+
+Karmaşık ifadelerle daha kapsamlı bir dil kullanımı kazandırır.
+Orta Seviye Artı
+
+Gelişmiş kelime dağarcığı ve detaylı iletişim becerileri için uygundur.
+Orta Üstü
+
+Daha profesyonel ve akıcı bir şekilde konuşma yeteneği sunar.
+İleri
+
+Dilin tüm inceliklerini kavrayarak etkili bir iletişim sağlar.
+İleri Artı
+
+Ana dili gibi kusursuz bir dil becerisi hedefleyenler için en üst seviyedir.
+
+Ders Materyallerinin Kişiselleştirilmesi
+Seviyenizi belirledikten sonra, ders materyalleri ve içerikler otomatik olarak seçtiğiniz seviyeye göre düzenlenir. Bu, öğrenim sürecinizin daha etkili ve hedef odaklı olmasını sağlar.
+
+Öğretmen Tavsiyesi: Öğretmeninizin yönlendirmesiyle seviyenizi daha doğru bir şekilde seçebilirsiniz.
+Esneklik: İhtiyaçlarınız değiştikçe seviyenizi yeniden güncelleyebilir ve buna uygun ders materyalleriyle çalışmaya devam edebilirsiniz.
+Kurs Ayarları sayesinde, dil öğrenme sürecinizde ihtiyaçlarınıza en uygun içeriklerle ilerleyebilir, seviyenize özel bir eğitim deneyimi yaşayabilirsiniz.
+
+
+
+Öğrenme Yolculuğu Alanı sayesinde, dil öğrenme sürecinizin her aşamasını kontrol edebilir, hedeflerinize ulaşmak için daha disiplinli ve motive bir şekilde çalışabilirsiniz. Her seviyede kazandığınız yeni becerilerle başarıyı yakalamaya hazır olun!
+
+-----
+
+Yaklaşan Dersler Menusu
+
+"Yaklaşan Dersler" menüsü, derslerinizi pratik bir şekilde takip edebilmeniz için özel olarak tasarlanmıştır. Bu bölüm, sıradaki dersinizi tarih saat , ogretmen bilgileriyle birlikte en yakin dersinize  kaç saat kaldığını gerçek zamanlı bir zamanlayıcı ile gösterir.
+
+
+Derse Kalan Süre (Timer)
+En yakındaki ders için, derse kalan süreyi canlı olarak takip edebileceğiniz bir zamanlayıcı (timer) bulunur.
+
+
+
+
+
+Zamanlayıcı, "Saat/Dakika " formatında gerçek zamanlı olarak güncellenir.
+Bu özellik sayesinde, dersinizi kaçırmamak için gerekli tüm bilgileri kolayca takip edebilirsiniz.
+Yaklaşan Dersler menüsü, derslerinizi düzenli bir şekilde planlamanızı ve zamanınızı verimli bir şekilde yönetmenizi sağlar. En yakındaki dersinize odaklanarak, öğrenme yolculuğunuza kesintisiz bir şekilde devam edebilirsiniz
+
+-----
+
+Tarihe Gore Ara
+Flalingo deneyiminizi kolaylaştırmak için tasarlanan "Tarihe Göre Ara" butonu, ders talebinde bulunmak istediğiniz tarih ve zaman dilimlerini hızlıca belirlemenize olanak tanır.
+
+
+
+Bu butona tıkladığınızda, karşınıza bir modal ekran açılır. Modal içerisinde şu seçenekler yer alır:
+
+Ders Günleri Seçimi: Ders almak istediğiniz günleri (örneğin, Cumartesi veya Pazartesi) işaretleyebilirsiniz.
+Saat Aralığı: İhtiyacınıza uygun olarak ders aralığını seçebilirsiniz (örneğin, 09:00 - 15:00).
+Ders Uzunluğu: 25 dakikalık ya da 50 dakikalık ders tercihinizi belirtebilirsiniz.
+Bu özellik sayesinde, öğretmen havuzunda tek tek profillere girip her bir öğretmenin müsaitlik durumunu incelemek zorunda kalmazsınız. Belirlediğiniz kriterlere uygun tüm öğretmenler otomatik olarak listelenir ve aradığınız ders seçeneklerine hızla ulaşabilirsiniz.
+
+-----
+
+Ogretmen Ara
+
+
+
+
+"Öğretmen Ara" butonu bulunmaktadır. "Öğretmen Ara" butonu, arama kutusuna yönlendirme yaparak, kullanıcıların ogretmen havuzunda istedikleri öğretmeni daha kolay bir şekilde filtrelemelerini sağlar.
+
+
+
+-----
+
+Planlar
+"Planlar" butonuna tıkladığınızda, paketlerin görüntülendiği sayfaya yönlendirilirsiniz. Buradan, kendinize uygun abonelik paketini seçerek satın alabilirsiniz. 
+
+
+
+
+
+
+
+
+
+Ders Süresi Seçimi Flalingo, 25 dakika veya 50 dakika arasında ders süresi seçenekleri sunmaktadır. İhtiyacınıza en uygun süreyi seçerek derslerinizi planlayabilirsiniz.
+
+
+Haftalık Ders Gün Sayısı Seçimi Haftalık ders almak istediğiniz gün sayısını seçebilirsiniz. Seçenekler, haftada 1 gün ile 7 gün arasında değişmektedir. Bu, ders yoğunluğunuzu kendinize göre ayarlamanızı sağlar.
+
+
+
+Abonelik Süresi Seçimi Flalingo, 1 ay, 3 ay, 6 ay ve 12 ay gibi farklı abonelik süreleri sunmaktadır. İhtiyaçlarınıza ve hedeflerinize en uygun süreyi seçebilirsiniz.
+
+
+    
+
+      Bu adımlarla, Flalingo’da size en uygun abonelik planını kolayca seçebilir ve derslerinize başlayabilirsiniz.
+
+-----
+
+Dersler
+Dersler birebir mi yoksa grup dersi mi?
+Derslerimiz birebir yapılmaktadır, böylece öğrencilere özelleştirilmiş bir öğrenme deneyimi sunabiliyoruz. Birebir dersler, öğrencilerin ihtiyaçlarına odaklanmayı ve daha etkili iletişim sağlamayı amaçlamaktadır.
+
+
+
+Dersler canlı mı?
+
+Derslerimiz canlı olarak gerçekleştirilmektedir. Bu, öğrencilerin İngilizce öğretmenleriyle gerçek zamanlı olarak etkileşimde bulunabileceği anlamına gelir. Canlı dersler, öğrencilerin sorularını anında sorabilmesine, öğretmenin ders içeriğini anında uyarlamasına ve öğrencilerin derslerde aktif bir şekilde katılım göstermesine olanak tanır.
+
+
+
+Ders süresi kaç dakikadır?
+
+Derslerimiz 25 dakika ve 50 dakika olmak üzere iki farklı süre seçeneğiyle sunulmaktadır. Bu seçenekler, öğrencilerin ihtiyaçlarına ve tercihlerine göre ders süresini belirleme imkanı sağlar. Bazı öğrenciler kısa süreli yoğun dersleri tercih ederken, diğerleri daha uzun süreli derslere odaklanmayı tercih edebilir. Hangi süreyi tercih ederseniz edin, öğretmenlerimiz size ders süresi boyunca etkili bir öğrenme deneyimi sunmak için hazırdır.
+
+
+
+En erken kaç saat sonrası için ders rezervasyonu yapabilirim?
+
+Flalingo'da dersler, en erken 8 saat sonrası için rezerve edilebilir. Bu süre, öğretmenlerin ve öğrencilerin derse hazırlanmak için yeterli zamanı bulmalarını ve daha verimli bir ders deneyimi yaşamalarını sağlamak amacıyla belirlenmiştir.
+
+
+
+Öğretmenlerimiz, her ders için özenle hazırlık yaparlar. Materyalleri düzenler, içerikleri gözden geçirirler ve öğrenci ihtiyaçlarına uygun bir ders planı oluştururlar. Bu hazırlık süreci, öğretmenlerin öğrencilere en yüksek kalitede eğitim sunmalarını sağlar.
+
+
+
+Ancak, kullanıcılarımız daha erken ders almak istediklerinde "Ders talep et" özelliğini kullanabilirler. Bu özellikle, ders saatine 3 saat kala kadar rezervasyon talepleri alınabilir. Böylece, öğrencilerin önceden belirtilen saatlerden önce ders alma imkanı elde etmeleri sağlanır.
+
+
+
+Dersi nasıl rezerve edebilirim?
+
+Ders rezervasyonu işlemi öğrenci paneli üzerinden gerçekleştirilir. Kullanıcı adınız ve şifrenizle giriş yaptıktan sonra sizin için özel hazırlanmış öğrenci sayfanıza yönlendirileceksiniz. Bu sayfanın üst kısmında ''öğretmen ara'' ve ''tarihe göre ara'' seçenekleri ile istediğiniz zamanda istediğiniz öğretmenle ders planlayabilirsiniz.
+
+
+
+İlk yöntem, "Tarihe Göre Ara" butonuna tıklayarak kendiniz için uygun bir zamanı seçmenizdir. Bu şekilde, o saatte müsait olan öğretmenler arasından birini seçme imkanına sahipsiniz.
+
+
+
+İkinci yöntem ise, "Öğretmene Göre Ara" butonuna tıklayarak öğretmen listesindeki profilleri inceleyebilir ve ders almak istediğiniz öğretmeni belirleyebilirsiniz. Seçtiğiniz öğretmenin takviminden kendinize uygun bir zamanı seçerek rezervasyon yapabilirsiniz.
+
+
+
+Bunların yanı sıra, istediğiniz öğretmenden kendinize uygun bir zamanda ders bulamazsanız, "Rezervasyon Talep Et" özelliğini kullanabilirsiniz. Bu özellik sayesinde, istediğiniz öğretmenin takviminde uygun bir zaman bulunmadığında, öğretmene rezervasyon talebi gönderme imkanına sahip olursunuz.
+
+
+
+Kendime uygun rezervasyon bulamadım ne yapabilirim?
+
+Öğrencinin ders almak istediği saatte öğretmenin müsait olmaması durumunda öğrenci, öğretmenden rezervasyon talebinde bulunabilir. Bunun için rezervasyon yapma sayfasında veya mesajlaşma ekranında bulunan "Ders Talep Et" butonuna tıklayarak ilgili kısımları doldurmanız gerekmektedir. Rezervasyon talebi, en erken 3 saat sonrası için yapılabilmektedir. Ancak rezervasyon talebi, dersin garanti edildiği anlamına gelmez.
+
+
+
+Öğretmen, rezervasyon talebini, talep edilen ders saatinden en az 30 dakika öncesine kadar cevaplar. Talebin onaylanmadığı durumlarda, rezervasyon talepleri reddedilmiş olarak kabul edilir. Öğrenciye rezervasyon taleplerinin sonucu e-posta yoluyla iletilir. Onaylanmayan ders talepleri, öğrencinin ders haklarından eksilmez
+
+
+
+Rezervasyon talebi sürecinde, öğrenci ve öğretmen arasındaki iletişim ve anlaşma büyük önem taşır. Öğrenciler, öğretmenlerle iletişim kurmak ve uygun zamanları belirlemek için öğrenci panelinde bulunan mesajlaşma modülünü kullanabilirler. Bu modül aracılığıyla öğrenciler, öğretmenlere uygun saatleri sormak ve bu saatlere rezervasyon talebinde bulunmak için iletişim kurabilirler. Bu yöntem, öğrencilerin rezervasyon talep etme özelliği ile derslerini planlamaları için en iyi yol olarak önerilmektedir.
+
+
+
+Rezervasyonumu iptal edersem ders hakkım yanar mı?
+
+Rezervasyonunuzu Flalingo üzerinden, ders saatine 8 saat kalana kadar iptal edebilir ve ders hakkınızı geri alabilirsiniz. İptal işlemini gerçekleştirmek için aşağıdaki adımları izleyebilirsiniz:
+
+
+
+1- Hesabınıza giriş yapın.
+
+2- "Yaklaşan Dersler" butonuna tıklayın. Bu listede rezerve ettiğiniz tüm dersleriniz yer alacaktır.
+
+3- İptal etmek istediğiniz dersin sağ üst köşesinde bulunan üç noktaya tıklayın ve "iptal et" seçeneğini seçin.
+
+
+
+Not: Eğer dersin başlama saatine 8 saatten daha az süre kalmışsa, doğrudan dersi iptal edemezsiniz. Ancak, öğretmene iptal talebi gönderebilirsiniz. İptal talebi göndermek, rezervasyonun iptal edileceğini garanti etmez. Öğretmen talebi onayladığında, ders iptal edilmiş olur. Öğretmenlerin iptal taleplerini kabul etme zorunluluğu bulunmamaktadır.
+
+
+
+Derse nasıl katılabilirim?
+
+Derse katılmak için aşağıdaki adımları izleyebilirsiniz:
+
+
+
+1- Öğrenci panelinize giriş yapın.
+
+2- "Yaklaşan Dersler" butonuna tıklayın. Bu bölümde gelecekteki tüm rezervasyonlarınızı göreceksiniz.
+
+3- Katılmak istediğiniz dersin bulunduğu rezervasyon kartında yer alan "Katıl" butonuna tıklayarak derse giriş yapabilirsiniz. Bu buton, dersten 5 dakika önce aktif hale gelir.
+
+
+
+Not: "Katıl" butonuna tıkladığınızda, yeni bir sekmede Zoom ekranı açılır ve eğer siz öğretmenden önce giriş yapmışsanız, sizi bekleme odasına alır. Bu aşamada herhangi bir işlem yapmadan bekleyiniz. Öğretmen derse giriş yaptığında otomatik olarak derse bağlanmış olacaksınız.
+
+
+
+Öğretmen derse katılmadı. Ne yapmalıyım?
+
+Eğer öğretmen, ders süresi başladıktan sonra iki dakika içinde derse katılmamışsa, rezervasyon kartınızdaki "Katıl" butonu üzerinde "İtiraz Et" uyarısını göreceksiniz.
+
+
+Bu uyarıya tıklayarak, Flalingo destek ekibine bildirim gönderebilir ve öğretmenle iletişime geçilmesini sağlayabilirsiniz. Destek ekibi, sorunu en kısa sürede çözmek için çalışacak ve size gereken yardımı sağlayacaktır.
+
+
+
+Öğretmen 10. dakikaya kadar derse katılmazsa, dersi kendiniz sonlandırabilirsiniz. Bu durumda sistem, dersi otomatik olarak iade eder ve toplam haklarınıza +1 ders hakkı ekler. Eğer problem çözülmezse, müşteri temsilcimize yazabilirsiniz. Size en kısa sürede yardımcı olacak ve sorununuzu çözüme kavuşturmak için gerekli desteği sağlayacağız.
+
+
+
+Ders sırasında teknik bir problem yaşadım. Ne yapmalıyım?
+Eğer ders sırasında teknik bir sorunla karşılaşırsanız, aşağıdaki adımları izleyebilirsiniz: 1- Hemen sorunu Flalingo destek ekibine bildirmek için rezervasyon kartınızda bulunan "İtiraz Et" butonuna tıklayın. 2- Destek ekibi, sorunu çözmek için size yardımcı olacak ve teknik sorunun giderilmesi için gereken adımları atmanıza yardımcı olacaktır. Eğer sorun çözülemezse veya dersi devam ettirmek mümkün değilse, size ek bir ders hakkı tanımlanacaktır. Ayrıca, dersin sonunda Flalingo'ya tekrar giriş yaptığınızda bir pop-up penceresi göreceksiniz. Bu pencerede "Son dersiniz sorunsuz geçti mi?" sorusu yer alır. Eğer ders esnasında teknik bir sorun yaşadıysanız, "Hayır" seçeneğini seçin ve açılan seçeneklerden ilgili teknik sorunu işaretleyin. Böylece, sistemde bir itiraz oluşturmuş olacaksınız. Flalingo destek ekibi, sorununuzu inceler ve size çözüm sunar. İtirazlarınızın sonucunu öğrenmek için öğrenci panelinizdeki "İtirazlar" sekmesini takip edebilirsiniz.
+
+
+
+
+Öğretmen dersi erken bitirdi. Ne yapmalıyım?
+Eğer öğretmen dersi planlanandan daha erken bitirdiyse, aşağıdaki adımları izleyebilirsiniz: 1- Rezervasyon kartınızda bulunan "İtiraz Et" butonuna hemen tıklayarak sorunu Flalingo destek ekibine bildirin. 2- Destek ekibi, öğretmenle iletişime geçecek ve dersinizin tamamlanmasını sağlayacaktır. Eğer sorun çözülemezse veya dersi devam ettirmek mümkün değilse, size ek bir ders hakkı tanımlanacaktır. Ayrıca, dersin sonunda Flalingo'ya tekrar giriş yaptığınızda bir pop-up penceresi göreceksiniz. Bu pencerede "Son dersiniz sorunsuz geçti mi?" sorusu yer alır. Burada "Hayır" seçeneğini seçin ve açılan seçeneklerden öğretmenin dersi erken bitirdiğini işaretleyin. Böylece, sistemde bir itiraz oluşturmuş olacaksınız. Flalingo destek ekibi, sorununuzu inceler ve size çözüm sunar. İtirazlarınızın sonucunu öğrenmek için öğrenci panelinizdeki "İtirazlar" sekmesini takip edebilirsiniz.
+
+
+
+Ders konuları nasıl ilerliyor? Derslerde kitap takip ediliyor mu?
+
+Flalingo'da ders konuları öğrencinin ihtiyaçlarına ve hedeflerine göre kişiselleştirilir. Derslerde Oxford University Press'in online eğitime özel tasarlanan materyalleri kullanılmaktadır. Öğrenciler istedikleri takdirde bu materyallere erişebilir ve derslerde kullanılabilir. Ancak, kitap takibi zorunlu değildir. Öğrencilerin rahat bir ortamda konuşma pratiği yapabilmeleri için de özel olarak hazırlanmış dersler bulunmaktadır. Böylece öğrenciler, kendi hedeflerine ve tercihlerine göre derslerin ilerleyişini şekillendirebilirler. Daha detaylı bilgi için "Kurslar ve Materyaller" başlığındaki soruları inceleyebilirsiniz.
+
+
+
+Ders itirazlarımın sonuçlarını nereden görebilirim?
+Öğrenci panelindeki "İtirazlar" sekmesinde, yaptığınız tüm ders itirazlarınızı görüntüleyebilirsiniz. Kabul edilen itirazlar yeşil renkte gösterilirken, reddedilen itirazlarınız kırmızı renkte gösterilir. Reddedilen itirazların gerekçesini görmek için "Sebep" butonuna tıklayabilirsiniz. Bu şekilde, itirazınızın neden reddedildiğini öğrenebilirsiniz.
+
+
+
+Derse katılmak için bilgisayarım da hangi programın yüklü olması gerekiyor?
+
+Flalingo'da gerçekleştirilen derslerde, Zoom programı kullanılır. Ancak, derse katılma işlemleri tamamen Flalingo platformu üzerinden yapılır ve Zoom'da ayrı bir işlem yapmanıza gerek yoktur. Zoom programının bilgisayarınızda yüklü olması yeterlidir. Eğer bilgisayarınızda Zoom programı yüklü değilse, aşağıdaki bağlantıyı kullanarak Zoom programını bilgisayarınıza indirebilirsiniz:
+
+
+
+https://zoom.us/download
+
+
+
+-----
+
+Teknik
+Sistemde gördüğüm saatler ve rezervasyonum hangi zaman diliminde?
+Flalingo'da görünen saatler ve rezervasyonlar, bağlandığınız cihazın yerel zaman dilimine göre ayarlanmıştır. Doğru saatleri görmek için, tüm cihazlarınızın otomatik olarak bulunduğunuz ülkenin zaman dilimine ayarlı olduğundan emin olun. Ayrıca, bilgisayarınızda en güncel Google Chrome sürümünü kullandığınızdan emin olun.
+
+
+
+Şifremi unuttum ne yapmalıyım?
+
+Şifrenizi unuttuysanız, aşağıdaki adımları izleyerek şifrenizi yenileyebilirsiniz:
+1. Flalingo'nun ana sayfasındaki ana menüden "GİRİŞ" seçeneğini seçin.
+2. "Şifreni mi Unuttun?" ifadesini tıklayın.
+3. Karşınıza çıkan ekrana, Flalingo'ya kayıtlı olduğunuz e-posta adresinizi girin ve "Şifre Sıfırlama Linki Gönder" butonuna tıklayın. Flalingo'ya kayıtlı e-posta adresinize, şifre sıfırlama linki içeren bir e-posta gönderilecektir. Şifrenizi yeniledikten sonra Flalingo'ya giriş yapabilirsiniz!
+
+
+
+Bağlantımı nasıl test edebilirim?
+
+Flalingo'yu kullanmak için iyi bir internet bağlantısına ihtiyacın olacak. SpeedTest genellikle bağlantı kalitesinin nasıl olduğu hakkında size iyi bir fikir verir.
+
+
+
+Flalingo'dan gelen e-postalar nerede?
+
+Flalingo'dan gelen e-postaları göremiyorsanız, öncelikle hesap ayarlarınızda e-posta adresinizin doğru olduğundan emin olun. Ardından, e-postaların istenmeyen posta klasöründe olmadığını kontrol edin. Eğer e-postalarımızın tarafınıza ulaşmadığını düşünüyorsanız, bizimle iletişime geçebilirsiniz.
+
+
+
+Flalingo'da en iyi performansı almak için hangi tarayıcıyı kullanmam gerekir?
+
+Flalingo bütün tarayıcıları desteklemektedir. 1) Windows dizüstü bilgisayar veya Android telefonlar kullanıyorsanız, lGoogle Chrome tarayıcıyı, MAC (Apple) veya Iphone ve Ipad kullanıyorsanız, Safari tarayıcısını kullanmanızı öneririz.
+
+
+
+Bağlantımı nasıl test edebilirim?
+
+
+Flalingo'yu kullanmak için iyi bir internet bağlantısına ihtiyacın olacak. SpeedTest.net genellikle bağlantı kalitesinin nasıl olduğu hakkında bize iyi bir fikir verir. SpeedTest bağlantı linki için lütfen buraya tıklayın.
+
+
+-----
+
+Kurslar ve materyaller
+Flalingo’da ders dışında erişebileceğim materyaller var mı?
+Flalingo'da, Oxford University Press yayınlarının önde gelen serilerine erişim sağlanmaktadır. Yetişkinler için English File: English File, yetişkin öğrencilere yönelik bir İngilizce kursu serisidir. Bu seri, dilbilgisini, kelime dağarcığını ve iletişim becerilerini geliştirmeyi hedefler. Çocuklar için, Family & Friends: Family & Friends, çocuklar için özel olarak tasarlanmış bir İngilizce kursu serisidir. Bu seri, çocukların dil becerilerini eğlenceli etkinlikler ve interaktif içerikler aracılığıyla geliştirmeyi amaçlar. İş İngilizcesi için Business Result: Business Result, iş dünyasında İngilizce becerilerini geliştirmek isteyen yetişkinlere yönelik bir kurs serisidir. Bu seri, iş iletişimi, sunum becerileri, müşteri ilişkileri gibi konularda dil becerilerini güçlendirmeyi hedefler. TOEFL ve IELTS Hazırlık Materyalleri: Flalingo'da TOEFL ve IELTS gibi sınavlara hazırlık yapmak isteyen öğrenciler için özel olarak hazırlanmış materyallere erişim sağlanır. Bu materyaller, profesyonel eğitmenler tarafından hazırlanmıştır ve öğrencilere sınavın gerekliliklerine uygun şekilde pratik yapma imkanı sunar. Bu materyallere seviyenize uygun olarak erişebilir ve yüzlerce etkileşimli materyal, video ve içeriğe ulaşabilirsiniz. Etkileşimli etkinlikleri kendi hızınıza göre çözebilir ve doğru cevaplarınızı kontrol edebilirsiniz. Ayrıca, birebir dersler sırasında öğretmeninize sorularınızı yöneltebilir ve anlamadığınız konuları daha fazla pratik yaparak pekiştirebilirsiniz.
+
+
+
+Kurs modu nedir?
+
+Kurs modu, Flalingo'da sunulan yapılandırılmış bir öğrenme programıdır.  Bu mod, kullanıcıların dil seviyelerine göre uygun eğitim materyalleri ve öğrenme içeriği sunmak için tasarlanmıştır. Kullanıcının dil becerilerini doğru bir şekilde değerlendirmek ve seviyesini belirlemek için CEFR (Common European Framework of Reference for Languages - Avrupa Dilleri Ortak Çerçeve Programı) ölçütleri kullanılır.
+
+
+
+Kurs moduna başladığınızda, bir dil seviye değerlendirmesi yapılır. Bu değerlendirme süreci, kullanıcının yazma, okuma, konuşma ve dinleme becerileri göz önünde bulundurularak uzman eğitmenler tarafından gerçekleştirilir. 
+
+
+
+Kullanıcının seviyesi belirlendikten sonra, Oxford University Press tarafından sağlanan öğrenme materyalleri ile eşleştirilir. Kullanıcıya sunulan eğitim, seviyesine göre yapılandırılmış konu başlıklarını takip eder. Bu konu başlıkları, temel dilbilgisi kurallarından başlayarak, kelime dağarcığının genişletilmesi, iletişim becerilerinin geliştirilmesi ve gerçek hayatta kullanılabilen dil becerilerinin kazanılmasını kapsar.
+
+
+
+Kurs modu, kullanıcılara bireysel ve özelleştirilmiş bir öğrenme deneyimi sunar. Her kullanıcının kendi hızında ilerleyebileceği ve ihtiyaçlarına uygun öğrenme materyalleriyle destekleneceği bir ortam sağlar. Bu sayede, kullanıcılar dil becerilerini sistematik bir şekilde geliştirirken, özgün ve etkili bir öğrenme deneyimi yaşarlar.
+
+
+
+Rahat Mod nedir?
+
+Rahat mod, öğrencilerin tercihlerine bağlı olarak konuşma odaklı dersler aldığı bir özelliktir. Bu modda öğrenciler, daha esnek bir öğrenme deneyimi yaşarlar ve dil becerilerini geliştirmek, özgüvenlerini artırmak için öğretmenleriyle iletişim halinde olurlar. Rahat mod, dil öğrenme sürecini kişiselleştirir ve öğrenci merkezli hale getirir. Bu sayede, öğrenciler kendi ilgi alanlarına ve hedeflerine göre ders içeriğini belirleme özgürlüğü elde ederler. Sınav hazırlığı, mülakat hazırlığı veya günlük iletişim gibi özel ihtiyaçlara odaklanarak pratik yapma fırsatı bulurlar. Rahat modu tercih eden kullanıcılar, dersler sırasında Oxford University Press'ten materyaller kullanmazlar. Ancak ders dışında, kullanıcılar materyallere erişim sağlayabilirler.
+
+
+
+Hangi modu seçeceğime nasıl karar vereceğim?
+
+Flalingo'da hangi modu seçeceğinize karar verirken bazı faktörleri göz önünde bulundurabilirsiniz:
+
+
+
+İlk olarak, dil öğrenme hedeflerinizi belirlemeniz önemlidir. Eğer dil bilginizi genel olarak geliştirmek ve tüm dil becerilerinizi kapsayan bir yapılandırılmış program istiyorsanız, kurs modu sizin için daha uygun olabilir. Ancak, belirli bir amaç veya konuya yönelik özel bir hazırlık yapmak istiyorsanız, rahat mod daha uygun olabilir.
+
+
+
+İkinci olarak, ilgilendiğiniz konulara ve ihtiyaçlarınıza bağlı olarak bir seçim yapabilirsiniz. Rahat mod, öğrencilerin belirli konulara odaklanmasına ve ilgi duydukları alanlarda daha fazla pratik yapmalarına imkan tanır. Eğer belirli bir sınav veya mülakat için hazırlanmak istiyorsanız veya günlük yaşamda daha etkili iletişim becerileri geliştirmek istiyorsanız, rahat mod size daha uygun olabilir.
+
+
+
+Eğer hangi modun size uygun olduğu konusunda kararsız kaldıysanız endişelenmeyin. Flalingo'daki ilk dersinizde öğretmeniniz sizin seviyenizi ve öğrenme hedeflerinizi göz önünde bulundurarak sizi bir kursa ya da rahat moda kaydedecektir. Ayrıca, öğrenme sürecinde deneyimlerinizi ve ihtiyaçlarınızı değerlendirerek modları istediğiniz zaman değiştirebilirsiniz.
+
+
+
+Kursa kayıt olmak ücretli mi?
+
+Hayır, kursa kayıt olmak için ekstra bir ücret ödemenize gerek yok. Kullanıcılarımız, istedikleri kurslara ücretsiz olarak kayıt olabilir ve materyallerden sınırsız olarak faydalanabilirler.
+
+
+
+Oxford University Press materyallerine nasıl erişebilirim?
+
+Materyallere erişmek için önce "Kurslarım" sekmesine tıklayarak bir kursa kayıt olmanız gerekiyor. Ardından "Materyaller" sayfasına gidip kayıt olduğunuz seviyedeki kitabın resmine tıklamanız ve çıkan sayfada "Şifre Talep Et" butonuna tıklamanız yeterli olacaktır. Sistem talebinizi inceledikten sonra size kullanıcı adı ve şifre tanımlayacaktır.
+
+
+
+Sonrasında, açmak istediğiniz konuya tıkladığınızda yeni bir sekmede Oxford Bookshelf sitesi otomatik olarak açılacak. Burada size verilen kullanıcı adı ve şifreyi girerek giriş yapmanız gerekmektedir. Kullanıcı adı ve şifrenizi kaydederseniz, bir sonraki sefere doğrudan erişim sağlayabilirsiniz. Bu sayede materyallere kolayca erişebilirsiniz.
+
+
+
+Aynı anda birden fazla seviyedeki materyallere erişebilir miyim?
+
+Hayır, aynı anda birden fazla seviyedeki materyallere erişim imkanı bulunmamaktadır. Flalingo'da düzenli ilerlemeyi teşvik etmek amacıyla bir seviyeyi tamamlamadan diğer seviyelerin materyallerine erişemezsiniz. Bu yaklaşım, öğrencilerin sistematik ve sıralı bir öğrenme deneyimi yaşamalarını sağlamak için tasarlanmıştır. Her seviyeyi sırasıyla tamamlamak, dil becerilerinin aşamalı olarak gelişmesine ve daha sağlam bir temel oluşturulmasına yardımcı olur.
+
+
+
+Materyalleri ders dışında kullanabilir miyim?
+
+Evet, materyalleri ders dışında da kullanabilirsiniz. Flalingo'daki materyaller size sadece derslerde destek sağlamakla kalmaz, aynı zamanda öğrenme sürecinizi desteklemek için her zaman erişilebilir bir şekilde sunulur. Derslerinizin dışında da materyalleri kullanarak, ders kitabınızdan tekrar yapabilir ve alıştırma kitabından pratikler yapabilirsiniz. İnternet erişiminizin olduğu her an ve her yerden materyallere erişebilirsiniz.
+
+
+
+Materyalleri bilgisayarıma indirebilir miyim?
+
+
+Hayır, Flalingo'daki materyalleri bilgisayarınıza indiremezsiniz. Materyallere sadece çevrimiçi olarak kullanılabilir. Bu sayede, internet bağlantınız olduğu sürece materyallere herhangi bir cihazdan istediğiniz zaman erişebilirsiniz.
+
+
+
+Öğretmenin verdiği ödevleri nereden bulabilirim?
+
+Öğretmeninizin verdiği ödevleri Flalingo platformundaki mesajlaşma modülünde bulabilirsiniz. Mesajlaşma sistemi, öğretmeninizle etkileşimde bulunmanızı ve ödevleri almanızı sağlayan kullanışlı bir araçtır. Eğer ödevi henüz göremiyorsanız, öğretmeninize bir mesaj göndererek durumu sorabilirsiniz.
+
+
+
+Öğrencilerin ilerleme süreci nasıl izlenir?
+
+Flalingo, öğrencilerin ilerleme sürecini izlemek için bir takip aracı sunar. Her dersin ardından öğretmenler, öğrencilerin performansını sisteme işaretleyerek ilerlemelerini takip eder. Öğrenciler ise kendi panelindeki ilerleme çubuğunda bulundukları seviyedeki ilerleme yüzdesini ve genel öğrenme yolculuklarını görebilirler. Bu süreç çubuğu, öğrencilere ne kadar ilerlediklerini görsel olarak takip etme imkanı sağlar. Bu sayede öğrenciler, ilerleme hedeflerine ulaşma konusunda kendilerini motive edebilir ve ilerlemelerini izleyebilirler.
+
+
+
+Kişiselleştirilmiş geri bildirim özelliği nedir?
+
+Kişiselleştirilmiş geri bildirim özelliği, öğretmenlerin öğrenciler hakkında aylık raporlar sunarak ilerleme ve performanslarıyla ilgili detaylı bilgi sağlamasını içerir. Bu raporlar, genel geçer ifadelerden oluşmaz ve öğrencinin kişisel becerileri, güçlü yönleri, geliştirilmesi gereken alanları ve öğrenme hedeflerine ulaşma ilerlemesi gibi konuları kapsar. Öğretmenler, öğrencilerin performansını değerlendirirken özel dikkat gösterir ve öğrencinin bireysel ihtiyaçlarına odaklanır. Bu şekilde, öğrencilere kişiselleştirilmiş ve anlamlı geri bildirimler sunularak, ilerlemelerini daha etkili bir şekilde takip etmeleri ve geliştirmeleri sağlanır.
+
+
+
+Kurs sonunda sertifika veriliyor mu?
+
+Evet, Flalingo'daki 30 saatlik ders süresini tamamlayan öğrencilere bir sertifika verilmektedir. Bu sertifika, öğrencinin başarıyla kursu tamamladığını ve belirli bir süre boyunca dil öğrenme çalışmalarına aktif olarak katıldığını gösterir. Sertifika alma sürecinizi, öğrenci panelindeki "Sertifika" sekmesinden takip edebilirsiniz.
+
+-----
+
+Deneme dersleri
+Deneme dersini nasıl alabilirim?
+Deneme dersini almak için birkaç farklı yöntem bulunmaktadır:
+
+
+
+İlk olarak, Flalingo web sitesindeki "Fiyatlar" (https://flalingo.com/tr/my-plans) sayfasına giderek deneme dersini seçebilirsiniz. Fiyatlar arasında deneme dersini göremiyorsanız, lütfen sayfayı aşağıya doğru kaydırın.
+
+
+
+İkinci yöntem ise, ana sayfadaki "Şimdi 25 Dakikalık İngilizce Dersi Al" kısmındaki "Şimdi Dene" butonuna tıklayarak deneme dersini almanızdır.
+
+
+
+Her iki yöntem de size deneme dersini satın alma seçeneği sunar. Bu deneme dersi, Flalingo'nun İngilizce eğitimini deneyimleme ve platformun sunduğu özellikleri keşfetme fırsatı sağlar.
+
+
+
+Deneme dersinin içeriği nedir?
+
+Deneme dersleri, platformumuzun özelliklerini ve öğretmenlerimizin öğretim yöntemlerini denemek isteyen öğrenciler için ideal bir fırsattır. Bu deneme dersleri, öğrencilere Flalingo'nun nasıl çalıştığını, öğretmenlerimizin yeteneklerini ve öğrenme deneyimini değerlendirebilmeleri için bir önizleme sunar. Böylelikle öğrenciler, Flalingo platformunda sunulan eğitim hizmetinin kalitesini deneyimleyebilir ve kararlarını daha iyi bir şekilde verebilirler.
+
+
+
+Deneme dersi neden ücretli?
+
+Deneme derslerimiz ücretlidir, ancak bu dersler sembolik bir ücret karşılığında sunulmaktadır. Deneme derslerinin ücretli olmasının amacı, dersin değerini korumak ve öğrencilerin dersi ciddiye almasını sağlamaktır. Bu ücret, deneme derslerinin içeriğini özenle hazırlayan öğretmenlerimizin emeğini ve dersin kalitesini değerlendirmeyi amaçlamaktadır. Öğrencilerin dersi ciddiyetle yaklaşmaları, etkili bir öğrenme deneyimi yaşamaları ve Flalingo platformunun sunduğu değerli öğretim hizmetini tam anlamıyla deneyimlemeleri için bu sembolik ücret talep edilmektedir.
+
+
+
+Deneme dersine hemen girebilir miyim?
+
+Flalingo'da dersler, en erken 8 saat sonrası için rezerve edilebilir. Bu süre, öğretmenlerin ve öğrencilerin derse hazırlanmak için yeterli zamanı bulmalarını ve daha verimli bir ders deneyimi yaşamalarını sağlamak amacıyla belirlenmiştir.
+
+
+
+Öğretmenlerimiz, her ders için özenle hazırlık yaparlar. Materyalleri düzenler, içerikleri gözden geçirirler ve öğrenci ihtiyaçlarına uygun bir ders planı oluştururlar. Bu hazırlık süreci, öğretmenlerin öğrencilere en yüksek kalitede eğitim sunmalarını sağlar.
+
+
+
+Ancak, kullanıcılarımız daha erken bir deneme dersi almak istediklerinde "Rezervasyon talep et" özelliğini kullanabilirler. Bu özellikle, ders saatine 3 saat kala kadar rezervasyon talepleri alınabilir. Böylece, öğrencilerin önceden belirtilen saatlerden önce ders alma imkanı elde etmeleri sağlanır.
+
+
+
+Deneme dersi rezervasyonu ile ilgili daha detaylı bilgi almak için sağ alt taraftaki canlı destek ikonuna tıklayarak müşteri hizmetlerimize yazabilirsiniz. Müşteri temsilcilerimiz, size rezervasyon süreciyle ilgili yardımcı olacak ve sorularınızı yanıtlayacaktır.
+
+
+
+Deneme dersini nasıl rezerve edebilirim?
+
+
+Ders rezervasyonu yapmak için iki farklı yöntem bulunmaktadır: 
+
+
+
+İlk yöntem, "Tarihe Göre Ara" butonuna tıklayarak kendiniz için uygun bir zamanı seçmenizdir. Bu şekilde, o saatte müsait olan öğretmenler arasından birini seçebilirsiniz.
+
+
+
+İkinci yöntem ise, "Öğretmene Göre Ara" butonuna tıklayarak öğretmen listesindeki profilleri inceleyip ders almak istediğiniz öğretmeni belirlemeniz ve o öğretmenin takviminden kendinize uygun bir zamanı seçmenizdir.
+
+
+
+Ayrıca, istediğiniz öğretmenden kendinize uygun bir zamanda ders bulamazsanız, "Rezervasyon Talep Et" özelliğini kullanabilirsiniz. Bu özellikle, istediğiniz öğretmenin takviminde uygun bir zaman olmadığında, öğretmene rezervasyon talebi gönderme imkanına sahip olursunuz.
+
+
+
+Deneme dersi için en uygun öğretmeni nasıl seçebilirim?
+
+Flalingo'nun yapay zeka destekli öğretmen eşleştirme algoritması, ilgi ve ihtiyaçlarınıza en uygun 24 öğretmeni belirleyerek öğretmen havuzunuza ekler. Bu daraltılmış öğretmen havuzundan en uygun öğretmeni seçmek için, Flalingo size eğitim danışmanlarımızdan destek almanızı önerir.
+
+
+
+Bununla birlikte, tek başınıza seçim yapmak isterseniz aşağıdaki yöntemleri kullanabilirsiniz:
+
+
+
+Profil İncelemesi: Öğretmen listesindeki öğretmenlerin profillerini inceleyerek, deneyimleri, eğitim geçmişleri, öğretme stilleri ve uzmanlık alanları hakkında bilgi edinebilirsiniz.
+
+
+
+Derecelendirme ve Yorumlar: Öğretmenlerin profil sayfalarında, diğer öğrencilerin derecelendirme ve yorumlarını bulabilirsiniz. Bu geri bildirimler, öğretmenin öğrenciler tarafından nasıl değerlendirildiği hakkında fikir sahibi olmanızı sağlar.
+
+
+
+Uygunluk Kontrolü: Deneme dersi almak istediğiniz öğretmenin takvimini kontrol ederek, size uygun olan saatleri ve günleri görebilirsiniz. Bu şekilde, kendi programınıza ve tercihlerinize en uygun öğretmeni seçebilirsiniz.
+
+-----
+
+Abonelik ve ödemeler
+Nasıl abone olabilirim?
+Flalingo'ya abone olmak oldukça kolaydır. Web sitemizin üst menüsünde yer alan "Fiyatlar" butonuna (https://flalingo.com/en/my-plans) tıklayarak abonelik işlemini başlatabilirsiniz. Ardından, size sunulan farklı abonelik seçenekleri arasından tercih ettiğiniz bir planı seçip ödeme adımına geçebilirsiniz.
+
+
+
+Abonelik seçenekleri nedir?
+
+Flalingo'da çeşitli abonelik seçenekleri sunuyoruz, böylece kullanıcılarımızın ihtiyaçlarına en uygun planı seçmelerini sağlıyoruz. İlk olarak, 25 dakika veya 50 dakika arasında ders süresi tercihi yapabilirsiniz. Ayrıca, haftalık ders almak istediğiniz gün sayısını da belirleyebilirsiniz, seçenekler haftada 1 gün ile 7 gün arasında değişiyor. Abonelik süresi konusunda da seçenekler sunuyoruz. 1 ay, 3 ay, 6 ay ve 12 ay gibi farklı uzunluklarda abonelik planları mevcut. Bu şekilde, ihtiyaçlarınıza ve hedeflerinize en uygun süreyi seçebilirsiniz.
+
+
+
+Kendim için en uygun aboneliği nasıl seçebilirim?
+
+Flalingo olarak, sizin için en uygun aboneliği seçmeniz için bazı faktörleri göz önünde bulundurmanızı öneririz. İlk olarak, İngilizce öğrenme hedeflerinizi belirlemeniz önemlidir. Hangi seviyedesiniz ve hangi alanlarda ilerlemek istiyorsunuz? Bu, doğru abonelik planını seçmenize yardımcı olacaktır. Ardından, düzenli ders almak istediğiniz süreyi belirleyin. 1 ay, 3 ay, 6 ay veya 12 ay gibi farklı süreler arasından seçim yapabilirsiniz. Bu faktörleri göz önünde bulundurarak, kişisel hedeflerinize, zamanınıza ve bütçenize en uygun abonelik seçeneğini belirleyebilirsiniz. Eğer hangi planın size en uygun olduğundan emin değilseniz, eğitim danışmanlarımızdan destek alabilirsiniz. Eğitim danışmanlarımız, size en uygun planı hazırlama konusunda deneyimlidir.
+
+
+
+Çocuğum için ders almak istiyorum. Fiyatlar farklı mı?
+
+Hayır, tüm abonelik seçenekleri her yaştan öğrenci için aynıdır. Flalingo, tüm öğrencilere kişiselleştirilmiş İngilizce eğitimi sunmak için çalışır ve çocuklar da bu hizmetten yararlanabilir. Eğitim programlarımız, çocukların yaşlarına ve dil becerilerine uygun olarak düzenlenmiştir, ancak fiyatlandırma açısından herhangi bir ayrım yapılmaz.
+
+
+
+Ödeme yöntemleri nelerdir?
+
+Flalingo'da çeşitli ödeme yöntemleri sunmaktayız. Kredi kartı (Visa, Mastercard, American Express) ile ödeme yapmak mümkündür. Ayrıca bazı ülkelerde, banka transferi, Wise, Paypal, Western Union, e-cüzdanlar veya diğer elektronik ödeme yöntemleri de kullanılabilir. Yaşadığınız ülkedeki ödeme yöntemleri hakkında daha fazla bilgi almak için müşteri hizmetlerimizle iletişime geçebilirsiniz.
+
+
+
+Sanal Kredi Kartımla/Kredi kartımla ödeme yapmaya çalışırken bakiye yetersiz hatası alıyorum. Ne yapmalıyım?
+
+Flalingo; ABD merkezli bir şirkettir ve finans merkezi de ABD'de yer almaktadır. Ne yazık ki Türkiye, Meksika ve Brezilya'da yaşayan kullanıcılarımızın bankalarının şirketimiz ve ödeme sağlayıcımız (Stripe)'dan tamamen bağımsız olarak bazı yurtdışı ödemelerinde ekstra komisyonlar uygulayabildiğini fark etmiş durumdayız. Bu komisyon oranları ödeme miktarı ve bankanıza göre değişkenlik göstermektedir. Lütfen limitinizi %5 oranında artırarak tekrar ödeme yapmaya çalışın. Flalingo bu ücret farkını iyi niyet kapsamında tarafınıza iade etme politikası izlemektedir. Ödeme gerçekleştikten sonra müşteri hizmetlerimize dekont paylaşımı yaparak bu ücretin iadesini talep edebilirsiniz. Ortalama 2 iş günü içerisinde bu ücret tarafınıza iade edilecektir.
+
+
+
+Ödeme linki ile ödeme nedir?
+
+Ödeme linki ile ödeme, Stripe ya da Craftgate gibi ödeme aracılarından size özel olarak oluşturulan bir bağlantı aracılığıyla ödeme yapmanızı sağlayan bir yöntemdir. Bu bağlantı, genellikle e-posta veya mesaj yoluyla size gönderilir. Ödeme linkine tıkladığınızda, sizi güvenli bir ödeme sayfasına yönlendirir ve ödeme işlemini gerçekleştirmenizi sağlar. Ödeme linki ile ödeme yapmak, hızlı, kolay ve güvenli bir şekilde ödemenizi tamamlamaya olanak sağlar. Ödeme linkleri web sitemiz ile entegre olduğu için ödeme yapıldığında aboneliğiniz otomatik olarak oluşur.
+
+
+
+Aboneliğimi değiştirmek istiyorum. Nasıl yapabilirim?
+
+Aboneliğinizi değiştirmek için Flalingo'nun müşteri hizmetleri ile iletişime geçebilirsiniz. Aboneliğinizi yükseltmek, düşürmek veya farklı bir abonelik planına geçmek isterseniz, destek ekibimiz, ihtiyaçlarınıza en uygun abonelik seçeneğini belirlemenizde size rehberlik edecektir.
+
+
+
+Aboneliği iptal edebilir miyim?
+Evet, Flalingo'ya yeni abone olanlar, aboneliklerini 30 gün içinde koşulsuz bir şekilde iptal edebilirler. Eğer abonelikten memnun kalmazsanız, 30 gün içinde iptal talebinde bulunarak aldığınız paketin güncel fiyatı üzerinden sadece kullandığınız derslerin bedeli kesilir ve geri kalan ödemenizin tamamını geri alabilirsiniz. Böylece, abonelik hizmetimizi risk almadan deneme fırsatına sahip olursunuz. İptal işlemi için destek ekibimizle iletişime geçebilirsiniz.
+
+
+
+Abone olmadan önce denemek istiyorum. Mümkün mü?
+Evet, Flalingo'yu denemek isteyen kullanıcılarımız için sadece 1 derslik deneme paketi sunmaktayız. Deneme dersini almak için Flalingo web sitesindeki "Fiyatlar" (https://flalingo.com/tr/my-plans) sayfasına giderek deneme dersini seçebilirsiniz. Fiyatlar arasında deneme dersini göremiyorsanız, lütfen sayfayı aşağıya doğru kaydırarak seçenekleri bulun. Bu şekilde, Flalingo'nun eğitim deneyimini önceden deneyimleyebilir ve abonelik öncesinde karar verme şansınız olur.
+
+
+
+Ders haklarımı dondurabilir miyim?
+
+Evet aboneliğinizi belirli koşullara göre dondurmanız mümkündür. Dondurma seçenekleri aşağıdaki şekilde uygulanır: Aboneliğinizi dondurduğunuzda, belirtilen süre boyunca ders alamayacaksınız. Dondurma Yetkisi Abonelik sürenize bağlı olarak, belirtilen bir süre için aboneliğinizi dondurma seçeneğiniz bulunmaktadır: 3 aylık bir abonelikte, bir seferde en fazla 2 hafta dondurabilirsiniz. 6 aylık bir abonelikte, her seferinde en fazla 1 ay olmak üzere iki kez dondurabilirsiniz. 1 yıllık bir abonelikte, her seferinde en fazla 2 ay olmak üzere toplamda 3 kez dondurabilirsiniz. Dondurma Süresi Sona Erdiğinde Dondurma süresi sona erdikten sonra aboneliğiniz kaldığı yerden devam edecektir. Lütfen aboneliğinizi dondurduktan sonra belirtilen süre boyunca ders alamayacağınızı unutmayın. Lütfen bu detayı düşünerek işleme devam edin.
+
+
+
+Standart abonelik almak istemiyorum. Kendime özel bir abonelik alabilir miyim?
+
+Evet, İngilizce paketlerini isteğinize göre kişiselleştirebilirsiniz. Örneğin, haftada 2 gün ders almak istiyorsanız veya 2 aylık bir pakete abone olmak istiyorsanız, bu talebinizi eğitim danışmanınıza ileterek düzenleyebilirsiniz. Ayrıca, istediğiniz sayıda ders almanız da mümkündür, yani abonelik yerine istediğiniz kadar ders satın alabilirsiniz. Örneğin, 10 adet 50 dakikalık dersten oluşan bir paket satın alabilir ve bu dersleri istediğiniz zaman kullanabilirsiniz. Ayrıca, normal abonelikten farklı olarak, ekstra dersleri aynı günde birden fazla kez kullanmanız da mümkündür.
+
+
+
+Aboneliğimin otomatik yenilenmesini istemiyorum. Otomatik yenilemeyi nasıl kapatabilirim?
+
+Aboneliğinizin otomatik yenilenmesini kapatmak isterseniz, Flalingo hesabınıza giriş yaparak "Hesabım" > "Abonelik" > "Otomatik Yenilemeyi İptal Et" adımlarını izleyebilirsiniz. Bu işlem mevcut aboneliğinizin ders haklarını etkilemez sadece aboneliğinizin bitiminde otomatik olarak yenilenmesini iptal eder.
+
+
+
+Toplam ders hakkımı nasıl hesaplayabilirim?
+
+Flalingo’da 1 ay 4 hafta olarak hesaplanır. Örneğin haftada 3 derslik 1 aylık planda 12 ders bulunmaktadır. Haftada 3 ders, 12 aylık planda ise 12 x 12 toplam 144 ders hakkı bulunur.
+
+
+
+Haftalık ders haklarım ne zaman yenileniyor?
+
+Haftalık ders hakların abonelik başlangıç tarihinin denk geldiği gün saat 04:30 (GMT)' da yenilenir. Örneğin abonelik başlangıç gününüz Çarşamba gününe denk geliyorsa ders haklarınız her hafta Çarşamba günü sabah 04:30 (GMT)'da yenilenecektir. Haftalık ders hakkı yenilemenize ne kadar süre kaldığını öğrenci panelindeki sayaçtan takip etmeniz mümkündür.
+
+
+
+Kullanmadığım dersler bir sonraki haftaya devredilir mi?
+
+Hayır, kullanılmayan dersler bir sonraki haftaya devredilmez. Flalingo'da dersler haftalık olarak planlanır ve düzenlenir. Bir hafta içerisinde kullanılmayan dersler geçerliliğini yitirir. Bu nedenle, kullanmadığınız dersleri bir sonraki haftaya taşıyamaz veya biriktiremezsiniz. Derslerinizi düzenli olarak kullanmanız, en iyi şekilde faydalanmanızı sağlar.
+
+-----
+
+Öğretmenler
+Flalingo’da kimler öğretmenlik yapıyor?
+
+Flalingo’daki eğitmenlerin tamamı profesyonel İngilizce öğretmenidir.  Her öğretmen 3 aşamalı bir eleme sisteminden geçtikten sonra sisteme dahil edilmektedir. İlk olarak başvuru yapan eğitmenlerin diploma ve sertifikaları incelenir. Ardından uzmanlarımız tarafından yapılan mülakatla aksanına ve online bir dersi yönetebilme becerisine bakılır. Son olarak öğretmenin teknoloji okuryazarlığı değerlendirilir. Tüm bu süreçlerden başarılı olarak geçen eğitmen sisteme dahil edilir. Her 20 başvurucudan 1’i Flalingo’da öğretmen olmaya hak kazanmaktadır.
+
+
+
+Yapay zeka destekli öğretmen algoritması nedir? Nasıl çalışır?
+
+Flalingo’da 2000’den fazla profesyonel İngilizce eğitmeni bulunmaktadır. Ancak kullanıcılarımızı binlerce öğretmen arasından tercih yapmak durumunda bırakmıyoruz. Akıllı öğretmen algoritmamız, Flalingo’ya ilk kayıt olduğunuzda vermiş olduğunuz bilgilere göre size en uygun 24 öğretmeni belirlemektedir. Daha sonra yapay zeka yardımıyla ders aldığınız öğretmenlerin özellikleri göz önünde bulundurularak öğretmen havuzunuz güncellenmektedir.
+
+
+
+Kendime en uygun eğitmeni nasıl seçebilirim?
+
+Flalingo, binlerce öğretmen arasından size en uygun öğretmenleri belirler ve size daraltılmış öğretmen havuzu sunar. Siz bu daraltılmış öğretmen havuzundan en uygun öğretmeni seçmek için eğitim danışmanınızdan yardım alabilirsiniz.
+
+
+
+Aynı öğretmenle sürekli ders almak istiyorum. Mümkün mü?
+
+Evet. Flalingo’da tüm derslerinizi aynı öğretmenle almanız mümkündür.
+
+
+
+İstediğim zaman öğretmen değiştirebilir miyim?
+
+Evet değiştirebilirsiniz. Flalingo’da her dersin rezervasyonu ayrı yapılmaktadır. Dilediğiniz zaman farklı bir öğretmenden ders rezerve ederek öğretmen değişikliği yapabilirsiniz.
+
+
+
+Öğretmen havuzumu nasıl güncellerim?
+
+Flalingo sizin tercihlerinizi göz önünde bulundurarak size kişiselleştirilmiş bir öğretmen havuzu oluşturmaktadır. Flalingo’nun sizin için belirlediği öğretmenlerin size uygun olmadığını düşünüyorsanız eğitim danışmanınızla konuşarak öğretmen havuzunuzun güncellenmesini sağlayabilirsiniz.
+
+
+
+Öğretmenlerle ders dışında nasıl iletişim kurarım?
+
+Öğretmeninizle iletişim kurmak veya sorularınızı sormak için öğrenci panelinizdeki mesajlaşma bölümünü kullanabilirsiniz. Öğrenci panelinize giriş yaptıktan sonra, mesajlaşma sekmesine tıklayın ardından öğretmeninizin adını seçerek mesaj gönder butonuna basın. Bu şekilde öğretmeninizle mesajlaşabilir, dersle ilgili sorularınızı sorabilir, ödevlerinizi paylaşabilirsiniz.
+
+-----
+
+Video kayıtları
+Derslerim kaydediliyor mu?
+
+Evet. Flalingo'daki tüm dersler kaydedilmekte ve bu kayıtlar, aboneliğiniz boyunca saklanmaktadır. Bu süre içinde dilediğin zaman geçmiş dersleri tekrar izleyebilirsin.
+
+
+
+Ders videolarımı benden başkası izleyebiliyor mu?
+
+Ders videoları, öğrenme sürecindeki gelişiminizi takip etmek ve tekrarlamak için kullanılmaktadır. Flalingo, öğrencilerine geçmiş derslerini tekrar izleme imkanı sunar. Ancak, bu videolar yalnızca sizin erişiminizde ve kontrolünüzdedir. Videolarınızı reklamlarda veya kamuya açık kayıtlarda asla kullanmıyoruz. Video kayıtlarınızın sistemimizde güvende olduğuna emin olunuz.
+
+
+
+Geçmiş derslerimin kaydını nasıl izleyebilirim?
+
+Ders kayıtlarını izlemek için yapmanız gereken, öğrenci panelindeki "Geçmiş Dersler" sekmesine gelerek istediğiniz tarihteki dersi seçmek ve video kaydına tıklamak.
+
+
+
+Derslerimin kaydedilmesini istemiyorum ne yapmalıyım?
+
+Eğer ders videolarının kaydedilmesini istemiyorsan kolaylıkla video kaydını durdurabilirsin. Bunun için öğrenci paneline giriş yaptıktan sonra aşağıdaki işlemleri sırayla takip etmelisin:
+Hesap Bilgileri > Abonelik > Video Kaydını Kapat
+
+-----
+
+Genel
+Flalingo nedir?
+
+Flalingo, İngilizce öğrenmek için anadili İngilizce olan ya da anadili seviyesinde İngilizce konuşabilen profesyonel İngilizce öğretmenlerinden online ders alabileceğin bir platformdur. Flalingo'daki dersleri, mesleği İngilizce öğretmek olan profesyonel öğretmenlerden aldığın özel ders olarak tanımlayabilirsin, tek farkı dersinizin online olması!
+
+
+
+Flalingo’nun diğer İngilizce öğrenme platformlarından farkı nedir?
+
+Flalingo'nun diğer İngilizce öğrenme platformlarına kıyasla kendini güçlü hissettiği dört temel özelliği bulunmaktadır: 
+
+
+
+Yapay zeka destekli öğretmen eşleştirme algoritması: Flalingo, öğrencileri deneyimli ve profesyonel İngilizce öğretmenleriyle eşleştirmek için yapay zeka destekli bir algoritma kullanır. Bu sayede öğrenciler, ihtiyaçlarına ve hedeflerine en uygun öğretmenle ders yapabilirler.
+
+
+
+Oxford University Press'in online eğitime özel materyallerine sınırsız erişim: Flalingo, öğrencilere Oxford University Press tarafından özel olarak tasarlanan eğitim materyallerine sınırsız erişim imkanı sunar. Bu materyaller, öğrencilerin İngilizce dil becerilerini geliştirmelerine yardımcı olur.
+
+
+
+Kurs modu: Flalingo'nun kurs modu, öğrencilerin İngilizce öğrenme sürecini takip etmelerini sağlar. Öğrenciler, ders ilerlemelerini görebilir, tamamlanan konuları takip edebilir ve genel gelişimlerini izleyebilirler.
+
+
+
+Güçlü eğitim danışmanlığı hizmeti: Kullanıcı sadece abone olurken değil aboneliğinin her aşamasında karşısında bir muhatap buluyor. Öğrenciler, eğitim danışmanlarıyla iletişime geçerek abonelik seçeneklerini belirleyebilir, ders programlarını oluşturabilir ve her türlü sorularını yanıtlayabilirler.
+
+
+
+Hiç İngilizce bilmiyorum. Flalingo başlangıç aşamasındakiler için uygun mu?
+
+Evet, özellikle başlangıç aşamasında olanlara özel bir programımız var. Anadilinizi bilen native-level profesyonel öğretmenlerimiz ile Oxford University Press'in English File materyallerinden yararlanarak ders işlenir. Eğitmenlerimiz, sizin seviyenize uygun dersleri hazırlar ve öğrenme sürecinizi destekler. Bu süreçte sürekli aynı öğretmenle ders alabilmenize imkan sağladığımız için düzenli bir ilerleme sağlayabiliyorsunuz. Ayrıca sistemimiz dil öğrenme sürecindeki gelişiminizi takip edebilecek şekilde tasarlandığı için sistematik bir ilerleme kaydedebiliyorsunuz.
+
+
+
+Derslere katılmak için bilgisayar zorunlu mu? Telefondan katılabilir miyim?
+
+Derslere katılmak için bilgisayar kullanmanız tercih edilir, ancak Flalingo'ya telefondan da erişim sağlayabilirsiniz. Flalingo, hem bilgisayar üzerinden hem de mobil cihazlardan erişilebilir bir platformdur. Derslere katılmak için öğrenci paneline giriş yapabilir ve derslerinizi bilgisayarınızdan veya telefondan takip edebilirsiniz. Mobil cihazınızda Flalingo uygulamasını indirerek de derslere kolayca katılabilirsiniz.
+
+
+
+Eğitim danışmanı bana nasıl yardımcı olacak?
+
+Flalingo, öğrencilere eğitim danışmanları aracılığıyla destek sağlar. Eğitim danışmanları, size uygun olan abonelik seçeneklerini belirlemenize, ders programınızı oluşturmanıza ve her türlü sorunuzla ilgilenmenize yardımcı olurlar. Ayrıca eğitim hedeflerinize yönelik önerilerde bulunarak İngilizce öğrenme sürecinizi optimize etmenize yardımcı olurlar. Eğitim danışmanları, iletişim kanalları aracılığıyla size ulaşabilir ve herhangi bir konuda destek sağlamak için her zaman hazırdırlar.
+
+
+
+Flalingo uygulaması var mı?
+
+Evet, Flalingo'nun mobil uygulaması bulunmaktadır. Uygulama, öğrencilere kolay erişim sağlayarak ders programlarını görüntüleme, ders rezervasyonu yapma, öğretmenlerle iletişim kurma ve ders videolarını izleme gibi işlemleri mobil olarak gerçekleştirmenizi sağlar. Mobil uygulama ayrıca derslerinizden önce size rezervasyon hatırlatmaları göndererek, ders saatlerinizi kaçırmamanızı sağlar.
+
+
+
+Flalingo uygulamasını nasıl indirebilirim?
+
+App Store veya Google Play Store üzerinden "Flalingo" uygulamasını aratarak veya aşağıdaki bağlantıları kullanarak uygulamayı indirebilirsiniz:
+
+
+
+IOS: 
+
+https://apps.apple.com/us/app/flalingo-learn-english/id1624295861
+
+
+
+ANDROID:
+https://play.google.com/store/apps/details?id=com.globaledutech.flalingo
+
+
+
+Ödemeyi şirketim yapacak, şirket adına fatura alabilir miyim?
+
+
+Evet, ödemeyi şirketinizin yapması durumunda fatura talebinde bulunabilirsiniz. Ya da şirketiniz adına fatura alıp ödemenizi ispatlayabilirsiniz. Fatura talebinizi müşteri hizmetleriyle iletişime geçerek iletebilir ve gerekli bilgileri sağlayabilirsiniz. Fatura talebinizin işleme alınması ve fatura düzenlenmesi konusunda size yardımcı olacak ekip, size gerekli adımları ve gereksinimleri iletecektir.
+
+-----
+
+Flai Raporu
+Flai nedir?
+
+Flai, Flalingo’nun yapay zeka tabanlı ders analiz sistemidir. Öğrencilerin ders sırasında yaptıkları konuşmaları analiz ederek dil öğrenim süreçlerine yönelik detaylı geri bildirimler sunar. Flai, öğretmenlerin ve öğrencilerin dil öğreniminde daha bilinçli bir şekilde ilerlemesine yardımcı olur.
+
+
+
+Flai raporu nasıl oluşturulur?
+Flai raporu, ders sırasında öğrencinin konuşmalarını analiz ederek oluşturulur. Analiz tamamlandığında, rapor Flalingo hesabınız üzerinden erişilebilir hale gelir.
+
+
+
+Flai raporu neden beta sürecindedir?
+
+Flai, hâlâ geliştirme aşamasında olan bir teknolojidir. Şu anda %98 başarı oranıyla çalışmaktadır ancak istisnai durumlarda rapor oluşturulamaması mümkündür.
+
+
+
+Hangi durumlarda Flai raporu oluşturulmaz?
+
+Flai raporunun oluşturulamamasına neden olabilecek durumlar şunlardır:
+Öğrenci yeterince İngilizce konuşmadıysa: Analiz için yeterli veri bulunmaz.
+Mikrofon kalitesi düşükse: Ses yeterince net olmadığı için analiz yapılamaz.
+Çocuk öğrencilerde telaffuza bağlı bozulmalar fazlaysa: Doğal dil gelişim sürecindeki hatalar analizi zorlaştırabilir.
+Ders 1 saatten uzun sürdüyse: Uzatılan dersler ya da Zoom görüşmesinin kapatılmaması durumunda sistem rapor oluşturmaz.
+
+
+
+Flai raporunun sınırlamaları nelerdir?
+
+Flai, yalnızca öğrencinin İngilizce konuşmalarını analiz eder. Ders sırasında konuşulmayan veya yazılı olarak yapılan aktiviteler rapora dâhil edilmez. * Teknik aksaklıklar veya platform dışı kaynaklı sorunlar rapor oluşturma sürecini etkileyebilir.
+Flai raporunuzun oluşabilmesi adına ders kaydınızın 60 dakikadan fazla olmaması gerekmektedir.
+
+
+
+Flai raporu nasıl erişilir?
+
+Oluşturulan Flai raporlarına Flalingo hesabınızdan erişebilirsiniz. Raporlar, her ders sonrasında otomatik olarak hesabınıza yüklenir.
+
+
+
+Flai raporunda hangi bilgiler bulunur?
+
+Flai raporu, aşağıdaki bilgileri içerebilir: Öğrencinin konuşma süresi ve genel performansı. Kullanılan kelime sayısı ve kelime çeşitliliği. Telaffuz, gramer ve kelime bilgisiyle ilgili geri bildirim. Ders sırasında öğrenci tarafından yapılan hatalar ve öneriler.
+
+
+
+Flai raporu hangi dilleri destekliyor?
+
+Flai, şu anda yalnızca İngilizce dersler için geçerlidir. Diğer dillerde rapor desteği ilerleyen süreçte eklenebilir.
+
+
+
+Flai raporu hakkında geri bildirimde bulunabilir miyim?
+
+
+Evet, Flai raporu hakkında geri bildirimlerinizi Flalingo destek ekibine iletebilirsiniz. Bu, sistemi geliştirmemize yardımcı olacaktır.
+
+-----

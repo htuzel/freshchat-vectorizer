@@ -1,5 +1,7 @@
 import { QdrantClient } from '@qdrant/js-client-rest';
 import { config } from '../config.js';
+import { openaiService } from './openaiService.js';
+import crypto from 'crypto';
 
 class QdrantService {
     constructor() {
@@ -7,26 +9,32 @@ class QdrantService {
             url: config.qdrant.url,
             apiKey: config.qdrant.apiKey
         });
+
+        this.collectionName = 'conversations_simplified';
+    }
+
+    // UUID'yi sayısal ID'ye çeviren yardımcı fonksiyon
+    uuidToNumericId(uuid) {
+        return parseInt(crypto.createHash('md5').update(uuid).digest('hex').slice(0, 8), 16);
     }
 
     async initializeCollection() {
         try {
-            // First check if collection exists
             const collections = await this.client.getCollections();
             const collectionExists = collections.collections.some(
-                collection => collection.name === 'conversations'
+                collection => collection.name === this.collectionName
             );
 
             if (!collectionExists) {
-                await this.client.createCollection('conversations', {
+                await this.client.createCollection(this.collectionName, {
                     vectors: {
-                        size: 1536, // OpenAI embedding dimension
+                        size: 1536,
                         distance: 'Cosine'
                     }
                 });
-                console.log('Collection "conversations" created successfully');
+                console.log(`Collection "${this.collectionName}" created successfully`);
             } else {
-                console.log('Collection "conversations" already exists');
+                console.log(`Collection "${this.collectionName}" already exists`);
             }
         } catch (error) {
             console.error('Error initializing collection:', error);
@@ -36,11 +44,14 @@ class QdrantService {
 
     async storeConversation(conversation) {
         try {
+            // UUID'yi sayısal ID'ye çevir
+            const numericId = this.uuidToNumericId(conversation.id);
+
             // Check if conversation already exists
-            const existing = await this.client.scroll('conversations', {
+            const existing = await this.client.scroll(this.collectionName, {
                 filter: {
                     must: [
-                        { key: 'id', match: { value: conversation.id } }
+                        { key: 'original_id', match: { value: conversation.id } }
                     ]
                 },
                 limit: 1
@@ -51,9 +62,17 @@ class QdrantService {
                 return;
             }
 
+            // Konuşma için embedding oluştur
+            let vector;
+            if (!conversation.vector) {
+                vector = await openaiService.generateEmbedding(conversation.conversation);
+            } else {
+                vector = conversation.vector;
+            }
+
             const payload = {
-                id: conversation.id,
-                conversation: this.simplifyConversation(conversation.content),
+                original_id: conversation.id,
+                conversation: conversation.conversation,
                 user_id: conversation.user_id || null,
                 assigned_agent_id: conversation.assigned_agent_id,
                 summary: conversation.summary || '',
@@ -61,31 +80,56 @@ class QdrantService {
                 created_at: new Date().toISOString()
             };
 
-            await this.client.upsert('conversations', {
+            await this.client.upsert(this.collectionName, {
                 wait: true,
                 points: [{
-                    id: conversation.id,
+                    id: numericId,
                     payload,
-                    vector: new Array(1536).fill(0)
+                    vector: vector
                 }]
             });
-            console.log(`Conversation ${conversation.id} stored successfully`);
+            console.log(`Conversation ${conversation.id} stored successfully with numeric ID ${numericId}`);
         } catch (error) {
             console.error('Error storing conversation:', error);
             throw error;
         }
     }
 
-    // Helper method to simplify conversation JSON
-    simplifyConversation(messages) {
-        return messages.map(msg => ({
-            message_id: msg.id,
-            message_type: msg.message_type,
-            text: msg.message_parts?.[0]?.text || msg.text || '',
-            actor_type: msg.actor_type,
-            actor_id: msg.actor_id,
-            timestamp: msg.created_time
-        }));
+    async searchSimilarConversations(query, limit = 5) {
+        try {
+            const response = await this.client.search(this.collectionName, {
+                limit: limit,
+                vector: query.vector,
+                with_payload: true,
+                with_vectors: true,
+                score_threshold: 0.3,
+                params: {
+                    exact: false,
+                    hnsw_ef: 128
+                }
+            });
+
+            // Debug için sonuçları logla
+            console.log(`Found ${response.length} similar conversations`);
+            response.forEach((hit, index) => {
+                console.log(`Result ${index + 1} - Score: ${hit.score.toFixed(3)}`);
+                console.log(`Original ID: ${hit.payload.original_id}`);
+                console.log(`Conversation snippet: ${hit.payload.conversation.slice(0, 100)}...`);
+            });
+
+            return response.map(hit => ({
+                id: hit.payload.original_id,
+                conversation: hit.payload.conversation,
+                user_id: hit.payload.user_id,
+                assigned_agent_id: hit.payload.assigned_agent_id,
+                summary: hit.payload.summary,
+                is_resolved: hit.payload.is_resolved,
+                score: hit.score
+            }));
+        } catch (error) {
+            console.error('Error searching conversations:', error);
+            throw error;
+        }
     }
 }
 
