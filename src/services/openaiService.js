@@ -77,8 +77,13 @@ Question: ${question}`
                 temperature: 0.7,
             });
 
+            const completion = response.choices[0]?.message?.content;
+            if (!completion) {
+                throw new Error("No completion found");
+            }
+            
             return {
-                answer: response.choices[0].message.content,
+                answer: completion,
                 sources: {
                     conversations: conversationResults.map(conv => ({
                         id: conv.id,
@@ -101,6 +106,10 @@ Question: ${question}`
 
     async tabCompletionWithRAG(typedText, lastAnswer) {
       try {
+        if (!typedText?.trim()) {
+          throw new Error("Typed text is required");
+        }
+
         // Generate embedding for the typed text to find similar content
         const textEmbedding = await this.generateEmbedding(typedText);
   
@@ -170,7 +179,12 @@ Question: ${question}`
           temperature: 0.9,
         });
   
-        return response.choices[0].message.content;
+        const completion = response.choices[0]?.message?.content;
+        if (!completion) {
+            throw new Error("No completion found");
+        }
+
+        return completion;
       } catch (error) {
         console.error("Error in tab completion:", error);
         throw error;
