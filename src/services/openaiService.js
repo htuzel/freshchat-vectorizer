@@ -99,6 +99,84 @@ Question: ${question}`
         }
     }
 
+    async tabCompletionWithRAG(typedText, lastAnswer) {
+      try {
+        // Generate embedding for the typed text to find similar content
+        const textEmbedding = await this.generateEmbedding(typedText);
+  
+        // Search both collections in parallel
+        const [conversationResults, knowledgeResults] = await Promise.all([
+          qdrantService.searchSimilarConversations({
+            vector: textEmbedding,
+          }),
+          knowledgeService.searchKnowledge({
+            vector: textEmbedding,
+          }),
+        ]);
+  
+        // Prepare context from conversations
+        const conversationContext = conversationResults
+          .map((conv) => `--- Conversation Example ---\n${conv.conversation}`)
+          .join("\n\n");
+  
+        // Prepare context from knowledge base
+        const knowledgeContext = knowledgeResults
+          .map((article) => `--- ${article.title} ---\n${article.content}`)
+          .join("\n\n");
+  
+        // Generate completion using GPT-4 with context
+        const response = await this.client.chat.completions.create({
+          model: "gpt-4o",
+          messages: [
+            {
+              role: "system",
+              content: `You are a helpful customer service agent for Flalingo, an online English learning platform.
+                        Your task is to provide text completions for customer service responses.
+  
+                        CRITICAL RULES:
+                        1. ONLY return the completion part that should follow the typed text
+                        2. DO NOT return the typed text itself
+                        3. Keep completions natural, short and contextual
+                        4. Handle spaces intelligently:
+                           - For word completions (e.g., "Mer" -> "haba"), no space at start
+                           - For new phrases (e.g., "Ders" -> " başlayacak"), add space at start
+                        5. You are directly talking to the customer in Turkish
+                        6. Use both documentation and conversation history for accurate completions
+                        7. Keep responses short and chat-friendly
+  
+                        Examples:
+                        If typed "Mer" -> return "haba! Nasıl yardımcı olabilirim?"
+                        If typed "Ders" -> return " saatiniz için sistem kontrolü yapıyorum"
+                        If typed "Nas" -> return "ıl yardımcı olabilirim?"
+                        If typed "Par" -> return "ola ile ilgili sorununuzu anlayabilir miyim?"
+                        If typed "Öde" -> return "me işleminizi kontrol ediyorum"
+                        If typed "Siz" -> return "in için uygun bir çözüm bulacağım"
+                        If typed "Yar" -> return "dımcı olabildiğim için memnun oldum"
+                        
+                        Note: Focus on natural Turkish chat responses while maintaining proper spacing.`,
+            },
+            {
+              role: "user",
+              content: `Official Documentation:
+                        ${knowledgeContext}
+  
+                        Real Conversation Examples:
+                        ${conversationContext}
+  
+                        Last Answer: "${lastAnswer || ""}"
+                        Typed Text: "${typedText}"`,
+            },
+          ],
+          temperature: 0.9,
+        });
+  
+        return response.choices[0].message.content;
+      } catch (error) {
+        console.error("Error in tab completion:", error);
+        throw error;
+      }
+    }
+
     async processConversation(conversation) {
         try {
             const response = await this.client.chat.completions.create({

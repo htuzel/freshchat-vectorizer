@@ -50,6 +50,27 @@ app.get('/api/flalingo-ai', authenticateToken, async (req, res) => {
     }
 });
 
+app.get(
+  "/api/flalingo-ai/tab-completion",
+  authenticateToken,
+  async (req, res) => {
+    try {
+      const { typedKeys, lastMessage } = req.query;
+      const result = await openaiService.tabCompletionWithRAG(
+        typedKeys,
+        lastMessage
+      );
+      res.json(result);
+    } catch (error) {
+      console.error("Error processing tab completion:", error);
+      res.status(500).json({
+        success: false,
+        error: "An error occurred while processing your request",
+      });
+    }
+  }
+);
+
 // Error handling middleware
 app.use((err, req, res, next) => {
     console.error(err.stack);
