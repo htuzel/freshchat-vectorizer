@@ -1,185 +1,157 @@
 # Flalingo AI Assistant
 
-Flalingo AI Assistant, müşteri hizmetleri konuşmalarını ve bilgi bankası dokümanlarını kullanarak, yapay zeka destekli akıllı yanıt sistemi sunan bir API servisidir. Sistem, geçmiş konuşmalardan ve bilgi bankasından en alakalı içerikleri bularak, GPT-4 ile doğal ve tutarlı yanıtlar üretir.
+A powerful AI assistant that uses Retrieval Augmented Generation (RAG) to provide accurate responses based on historical conversations, knowledge base documents, and FAQs.
 
-## 🚀 Özellikler
+## Features
 
-- **İki Boyutlu RAG Sistemi**
-  - Geçmiş konuşmalardan benzer örnekleri bulma
-  - Bilgi bankasından ilgili dokümanları bulma
-  - Her iki kaynağı birleştirerek kapsamlı yanıtlar üretme
+- Two-dimensional RAG system combining conversations and knowledge base
+- Automatic vectorization of customer service conversations
+- Knowledge base document processing and storage
+- Multilingual FAQ support
+- Real-time question answering with context
+- Tab completion for quick responses
+- Secure API endpoints with token authentication
 
-- **Vektör Veritabanı Entegrasyonu**
-  - Konuşmaları ve dokümanları vektörleştirme
-  - Semantik arama yapabilme
-  - Yüksek performanslı benzerlik sorguları
+## System Architecture
 
-- **REST API**
-  - Token tabanlı güvenlik
-  - Kolay entegre edilebilir endpoint
-  - JSON formatında yanıtlar
+The system consists of several key services:
 
-## 🛠 Teknolojiler
+- **FreshchatService**: Handles interaction with Freshchat API for conversation management
+- **QdrantService**: Manages vector storage for conversations
+- **KnowledgeService**: Handles knowledge base document storage and retrieval
+- **FAQService**: Manages multilingual FAQs with vector search capabilities
+- **OpenAIService**: Provides embeddings and RAG-based responses
 
-- **OpenAI GPT-4**: Doğal dil işleme ve yanıt üretme
-- **Qdrant**: Vektör veritabanı
-- **Express.js**: API sunucusu
-- **Node.js**: Runtime environment
+## Installation
 
-## 📦 Kurulum
-
-1. Repo'yu klonlayın:
-```bash
-git clone https://github.com/yourusername/flalingo-ai-assistant.git
-cd flalingo-ai-assistant
-```
-
-2. Bağımlılıkları yükleyin:
+1. Clone the repository
+2. Install dependencies:
 ```bash
 npm install
 ```
-
-3. Çevre değişkenlerini ayarlayın:
-```bash
-cp .env.example .env
+3. Set up environment variables in `.env`:
+```
+OPENAI_API_KEY=your_openai_api_key
+QDRANT_URL=your_qdrant_url
+QDRANT_API_KEY=your_qdrant_api_key
+FRESHCHAT_API_TOKEN=your_freshchat_token
+FRESHCHAT_API_URL=your_freshchat_url
+API_TOKEN=your_api_token
 ```
 
-4. `.env` dosyasını düzenleyin:
-```env
-# OpenAI Configuration
-OPENAI_API_KEY=your_openai_api_key_here
+## Usage
 
-# Qdrant Configuration
-QDRANT_URL=your_qdrant_url_here
-QDRANT_API_KEY=your_qdrant_api_key_here
+### Knowledge Base Management
 
-# Freshchat Configuration
-FRESHCHAT_API_KEY=your_freshchat_api_key_here
-FRESHCHAT_API_URL=your_freshchat_api_url_here
+The system supports storing and retrieving knowledge base articles. Articles are stored in a text file with a specific format:
 
-# API Configuration
-API_TOKEN=your_secure_api_token_here
-```
-
-## 🚦 Kullanım
-
-### API Sunucusunu Başlatma
-
-```bash
-node src/api/server.js
-```
-
-### API'yi Kullanma
-
-**Endpoint**: `GET /api/flalingo-ai`
-
-**Parametreler**:
-- `question`: Sorulacak soru (zorunlu)
-- `token`: API token (zorunlu)
-
-**Örnek İstek**:
-```bash
-curl "http://localhost:3000/api/flalingo-ai?question=Nasıl ders rezervasyonu yapabilirim?&token=your_api_token"
-```
-
-**Örnek Yanıt**:
-```json
-{
-    "success": true,
-    "answer": "Ders rezervasyonu yapmak için öncelikle Flalingo platformuna giriş yapmanız gerekiyor...",
-    "metadata": {
-        "similar_conversations": 3,
-        "knowledge_articles": 2
-    }
-}
-```
-
-### Bilgi Bankası Yönetimi
-
-1. Dokümanları `knowledge_base.txt` dosyasına ekleyin:
 ```text
-Başlık 1
-İçerik...
+Title of Article 1
+Content of article 1 goes here.
+This can be multiple lines.
 -----
-Başlık 2
-İçerik...
+Title of Article 2
+Content of article 2 goes here.
+Each article is separated by five dashes.
+-----
 ```
 
-2. Dokümanları içe aktarın:
+To import knowledge base articles:
+1. Place your articles in `knowledge_base.txt` at the root directory
+2. Run the import script:
 ```bash
 node src/scripts/importKnowledge.js
 ```
 
-## 🔍 Teknik Detaylar
+The system will:
+- Split the content into separate articles using the "-----" separator
+- Extract the first line as the title
+- Generate embeddings for each article
+- Store them in the 'knowledge' collection in Qdrant
 
-### Vektör Özellikleri
-- Model: OpenAI Ada-002 Embeddings
-- Boyut: 1536 dimension
-- Metrik: Cosine similarity
-- Eşik değeri: 0.3 (ayarlanabilir)
+### Importing FAQs
 
-### Veri Formatları
+The system supports multilingual FAQs stored in a JSON format. Each FAQ entry should follow this structure:
 
-**Konuşma Formatı**:
-```javascript
+```json
 {
-    id: "unique-id",
-    conversation: "Agent: Merhaba\nUser: Merhaba...",
-    user_id: "user-id",
-    assigned_agent_id: "agent-id",
-    is_resolved: true/false
+  "question": {
+    "en": "English question",
+    "tr": "Turkish question",
+    "ru": "Russian question"
+  },
+  "answer": {
+    "en": "English answer",
+    "tr": "Turkish answer",
+    "ru": "Russian answer"
+  },
+  "id": 1,
+  "category_id": 5
 }
 ```
 
-**RAG Yanıt Formatı**:
-```javascript
-{
-    answer: "GPT-4 yanıtı",
-    sources: {
-        conversations: [{ id, content, score }],
-        knowledge: [{ id, title, content, score }]
-    }
-}
+To import FAQs:
+1. Place your FAQ data in `faqs.json` at the root directory
+2. Run the import script:
+```bash
+node src/scripts/importFAQs.js
 ```
 
-## ⚠️ Hata Ayıklama
+### Using the API
 
-### Sık Karşılaşılan Sorunlar
+The system provides several API endpoints:
 
-1. **API Bağlantı Hataları**
-   - Token doğruluğunu kontrol edin
-   - Sunucunun çalıştığından emin olun
-   - İstek formatını kontrol edin
+1. Question Answering:
+```
+GET /api/flalingo-ai?question=xxx&token=yyyy
+```
+Returns an answer based on relevant conversations, knowledge base articles, and FAQs.
 
-2. **Vektör İşleme Hataları**
-   - OpenAI API anahtarını kontrol edin
-   - Rate limit aşımlarını kontrol edin
-   - Vektör boyutlarını kontrol edin
+2. Tab Completion:
+```
+GET /api/flalingo-ai/tab-completion?typedKeys=xxx&token=yyyy
+```
+Provides smart completion suggestions for customer service responses.
 
-3. **Yanıt Kalitesi Sorunları**
-   - Benzerlik eşiğini ayarlayın
-   - Bilgi bankası içeriğini güncelleyin
-   - Konuşma verilerini kontrol edin
+### Vector Search
 
-## 🔒 Güvenlik
+The system uses Qdrant for vector storage and similarity search:
+- Conversations collection: Stores historical customer interactions
+- Knowledge base collection: Stores documentation and articles
+  - Each article has a title, content, and vector embedding
+  - Search threshold: 0.7 (adjustable in knowledgeService.js)
+  - Returns up to 3 most relevant articles
+- FAQs collection: Stores multilingual FAQs with vector embeddings
 
-- Token tabanlı kimlik doğrulama
-- Rate limiting (yakında)
-- CORS koruması (yakında)
-- IP bazlı kısıtlamalar (yakında)
+## Debugging
 
-## 🤝 Katkıda Bulunma
+Common issues and solutions:
 
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request açın
+1. Knowledge Base Import Issues:
+   - Ensure articles are properly separated with "-----"
+   - First line of each article must be the title
+   - Articles should have meaningful content for better embeddings
+   - Check file encoding is UTF-8
 
-## 📝 Lisans
+2. FAQ Import Issues:
+   - Ensure FAQ JSON is properly formatted with language codes
+   - Check that both question and answer fields contain valid JSON strings
+   - Verify category_id is present or will default to 'general'
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+3. Search Results:
+   - Knowledge base search threshold is set to 0.7 (adjustable in knowledgeService.js)
+   - FAQ search threshold is set to 0.7 (adjustable in faqService.js)
+   - Each search returns up to 4 most relevant FAQ entries
+   - Knowledge base returns up to 3 most relevant articles
 
-## 📞 Destek
+## Contributing
 
-Sorularınız için [issues](https://github.com/yourusername/flalingo-ai-assistant/issues) bölümünü kullanabilirsiniz. 
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License. 

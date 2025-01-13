@@ -43,7 +43,8 @@ app.get("/api/flalingo-ai", authenticateToken, async (req, res) => {
             answer: result.answer,
             metadata: {
                 similar_conversations: result.sources.conversations.length,
-                knowledge_articles: result.sources.knowledge.length
+                knowledge_articles: result.sources.knowledge.length,
+                faqs: result.sources.faqs.length
             }
         });
     } catch (error) {

@@ -2,6 +2,7 @@ import OpenAI from 'openai';
 import { config } from '../config.js';
 import { qdrantService } from './qdrantService.js';
 import { knowledgeService } from './knowledgeService.js';
+import { faqService } from './faqService.js';
 
 class OpenAIService {
     constructor() {
@@ -28,12 +29,15 @@ class OpenAIService {
             // Generate embedding for the question to find similar content
             const questionEmbedding = await this.generateEmbedding(question);
             
-            // Search both collections in parallel
-            const [conversationResults, knowledgeResults] = await Promise.all([
+            // Search all collections in parallel
+            const [conversationResults, knowledgeResults, faqResults] = await Promise.all([
                 qdrantService.searchSimilarConversations({
                     vector: questionEmbedding
                 }),
                 knowledgeService.searchKnowledge({
+                    vector: questionEmbedding
+                }),
+                faqService.searchFAQs({
                     vector: questionEmbedding
                 })
             ]);
@@ -48,6 +52,11 @@ class OpenAIService {
                 .map(article => `--- ${article.title} ---\n${article.content}`)
                 .join('\n\n');
 
+            // Prepare context from FAQs
+            const faqContext = faqResults
+                .map(faq => `Q: ${faq.question}\nA: ${faq.answer}`)
+                .join('\n\n');
+
             // Generate answer using GPT-4 with combined context
             const response = await this.client.chat.completions.create({
                 model: 'gpt-4o',
@@ -56,17 +65,25 @@ class OpenAIService {
                         role: 'system',
                         content: `You are a helpful customer service agent for online english company platform Flalingo.
                         You are directly talking to the customer.
-                        Use both the official documentation and real conversation examples to provide accurate and helpful answers. When answering, try to combine insights from both sources to give the most comprehensive and practical response. Give me the natural, not so formal and short, clear answers. All answers should be in Turkish. Prevent expressions like you may contact with Flalingo Support Team because you are already customer service agent. If it is a technical question, you should answer it in a technical way. If it is a non-technical question, you should answer it in a non-technical way.
+                        Use the official documentation, FAQs, and real conversation examples to provide accurate and helpful answers. 
+                        When answering, try to combine insights from all sources to give the most comprehensive and practical response. 
+                        Give me the natural, not so formal and short, clear answers. All answers should be in Turkish. 
+                        Prevent expressions like you may contact with Flalingo Support Team because you are already customer service agent.
+                        If it is a technical question, you should answer it in a technical way. 
+                        If it is a non-technical question, you should answer it in a non-technical way.
                         If the question is not clear, you should ask for clarification.
                         If the question is not related to Flalingo, you should say that you are not sure about the answer and you will ask the relevant team to get back to the customer.
-                        If you need some technical detail, you can ask more information if it is happening on the browser, app which mobile or desktop. If it is happening on the website, you can ask more information about the page or the section etc. and try to collect more information
-                        `
+                        If you need some technical detail, you can ask more information if it is happening on the browser, app which mobile or desktop.
+                        If it is happening on the website, you can ask more information about the page or the section etc. and try to collect more information`
                     },
                     {
                         role: 'user',
                         content: `
 Official Documentation:
 ${knowledgeContext}
+
+Frequently Asked Questions:
+${faqContext}
 
 Real Conversation Examples:
 ${conversationContext}
@@ -95,6 +112,12 @@ Question: ${question}`
                         title: article.title,
                         content: article.content,
                         score: article.score
+                    })),
+                    faqs: faqResults.map(faq => ({
+                        question: faq.question,
+                        answer: faq.answer,
+                        language: faq.language,
+                        score: faq.score
                     }))
                 }
             };
