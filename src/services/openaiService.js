@@ -135,7 +135,7 @@ Question: ${question}`
   
         // Generate completion using GPT-4 with context
         const response = await this.client.chat.completions.create({
-          model: "gpt-4o",
+          model: "gpt-4o-mini",
           messages: [
             {
               role: "system",

@@ -53,19 +53,6 @@ app.get("/api/flalingo-ai", authenticateToken, async (req, res) => {
             error: 'An error occurred while processing your request'
         });
     }
-
-    // Rate limiting check could be added here
-
-    const result = await openaiService.answerWithRAG(question);
-
-    res.json({
-      success: true,
-      answer: result.answer,
-      metadata: {
-        similar_conversations: result.sources.conversations.length,
-        knowledge_articles: result.sources.knowledge.length,
-      },
-    });
 });
 
 app.get(
