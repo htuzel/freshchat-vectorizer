@@ -131,8 +131,8 @@ class FreshchatService {
             try {
                 const response = await this.client.get('/v2/users', {
                     params: {
-                        created_from: '2024-12-01T00:00:00Z', //UTC Format From 1st October 2024, can be changed to any date
-                        created_to: '2025-01-01T12:00:00Z', //UTC Format To 10th January 2025, can be changed to any date
+                        created_from: '2024-07-01T00:00:00Z', //UTC Format From 1st October 2024, can be changed to any date
+                        created_to: '2024-08-01T12:00:00Z', //UTC Format To 10th January 2025, can be changed to any date
                         page: page,
                         per_page: 1000
                     }

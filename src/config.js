@@ -11,7 +11,7 @@ export const config = {
     },
     freshchat: {
         apiKey: process.env.FRESHCHAT_API_KEY,
-        apiUrl: process.env.FRESHCHAT_API_URL
+        domain: process.env.FRESHCHAT_DOMAIN
     },
     api: {
         token: process.env.API_TOKEN || 'flalingo_ai_default_token_change_this'

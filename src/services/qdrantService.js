@@ -95,7 +95,7 @@ class QdrantService {
         }
     }
 
-    async searchSimilarConversations(query, limit = 5) {
+    async searchSimilarConversations(query, limit = 10) {
         try {
             const response = await this.client.search(this.collectionName, {
                 limit: limit,
